@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/xoxo/static/css/main.96767504.css",
+    "main.js": "/xoxo/static/js/main.58d8b56c.js",
+    "static/media/2.gif": "/xoxo/static/media/2.6bf63a45ec265efe20f3.gif",
+    "static/media/2.jpg": "/xoxo/static/media/2.67e4a93aebdca6658e57.jpg",
+    "static/media/webgif_2.gif": "/xoxo/static/media/webgif_2.d7fcb13244092ffc4a21.gif",
+    "static/media/Phone_original.png": "/xoxo/static/media/Phone_original.cf442bb09eb76b0eba1a.png",
+    "static/media/1.jpg": "/xoxo/static/media/1.5a2e7d42c475b372767d.jpg",
+    "static/media/Pretendard-Medium.otf": "/xoxo/static/media/Pretendard-Medium.bcebdfe0d3918708aa5d.otf",
+    "static/media/4.jpg": "/xoxo/static/media/4.6975e2b022851129aeb3.jpg",
+    "static/media/6.jpg": "/xoxo/static/media/6.92fd4164433f7ea710aa.jpg",
+    "static/media/8.jpg": "/xoxo/static/media/8.e6e1a3d491cdad0cbf58.jpg",
+    "static/media/7.jpg": "/xoxo/static/media/7.5dac74a0da02716894ef.jpg",
+    "static/media/JalnanOTF.otf": "/xoxo/static/media/JalnanOTF.86da5126c7c0cc28e869.otf",
+    "static/media/5.jpg": "/xoxo/static/media/5.dfdc4f6fdd93d287144d.jpg",
+    "static/media/3.jpg": "/xoxo/static/media/3.76c6144b02701bfb780e.jpg",
+    "static/media/profile.jpg": "/xoxo/static/media/profile.fd958a373f1e52cba022.jpg",
+    "static/media/Google-Play.png": "/xoxo/static/media/Google-Play.6cce06677a165da6fa9c.png",
+    "static/media/Apple_Store.png": "/xoxo/static/media/Apple_Store.be497785d0cd66fda34a.png",
+    "static/media/xoxo1.png": "/xoxo/static/media/xoxo1.1f39e5dda1967ae6bd05.png",
+    "static/media/Xoxo-character.png": "/xoxo/static/media/Xoxo-character.929999b0afeb3e5c9e82.png",
+    "static/media/noun-easy.svg": "/xoxo/static/media/noun-easy.37abe0835aa8ae01f3d370969e1f9be0.svg",
+    "static/media/noun-commission.svg": "/xoxo/static/media/noun-commission.0607accc30804af20efcee952585ff84.svg",
+    "static/media/noun-security.svg": "/xoxo/static/media/noun-security.9393f10241aa986f8d2395cc08692a62.svg",
+    "index.html": "/xoxo/index.html",
+    "main.96767504.css.map": "/xoxo/static/css/main.96767504.css.map",
+    "main.58d8b56c.js.map": "/xoxo/static/js/main.58d8b56c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96767504.css",
+    "static/js/main.58d8b56c.js"
+  ]
+}

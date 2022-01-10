@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/xoxo/static/css/main.96767504.css",
-    "main.js": "/xoxo/static/js/main.0776f8af.js",
+    "main.js": "/xoxo/static/js/main.7f41544b.js",
     "static/media/2.gif": "/xoxo/static/media/2.6bf63a45ec265efe20f3.gif",
     "static/media/2.jpg": "/xoxo/static/media/2.67e4a93aebdca6658e57.jpg",
     "static/media/webgif_2.gif": "/xoxo/static/media/webgif_2.d7fcb13244092ffc4a21.gif",
     "static/media/Phone_original.png": "/xoxo/static/media/Phone_original.cf442bb09eb76b0eba1a.png",
     "static/media/1.jpg": "/xoxo/static/media/1.5a2e7d42c475b372767d.jpg",
+    "static/media/Xoxo-character.gif": "/xoxo/static/media/Xoxo-character.449336189b22fa4e7a0f.gif",
     "static/media/Pretendard-Medium.otf": "/xoxo/static/media/Pretendard-Medium.bcebdfe0d3918708aa5d.otf",
     "static/media/4.jpg": "/xoxo/static/media/4.6975e2b022851129aeb3.jpg",
     "static/media/6.jpg": "/xoxo/static/media/6.92fd4164433f7ea710aa.jpg",
@@ -19,16 +20,15 @@
     "static/media/Google-Play.png": "/xoxo/static/media/Google-Play.6cce06677a165da6fa9c.png",
     "static/media/Apple_Store.png": "/xoxo/static/media/Apple_Store.be497785d0cd66fda34a.png",
     "static/media/xoxo1.png": "/xoxo/static/media/xoxo1.1f39e5dda1967ae6bd05.png",
-    "static/media/Xoxo-character.png": "/xoxo/static/media/Xoxo-character.929999b0afeb3e5c9e82.png",
     "static/media/noun-easy.svg": "/xoxo/static/media/noun-easy.37abe0835aa8ae01f3d370969e1f9be0.svg",
     "static/media/noun-commission.svg": "/xoxo/static/media/noun-commission.0607accc30804af20efcee952585ff84.svg",
     "static/media/noun-security.svg": "/xoxo/static/media/noun-security.9393f10241aa986f8d2395cc08692a62.svg",
     "index.html": "/xoxo/index.html",
     "main.96767504.css.map": "/xoxo/static/css/main.96767504.css.map",
-    "main.0776f8af.js.map": "/xoxo/static/js/main.0776f8af.js.map"
+    "main.7f41544b.js.map": "/xoxo/static/js/main.7f41544b.js.map"
   },
   "entrypoints": [
     "static/css/main.96767504.css",
-    "static/js/main.0776f8af.js"
+    "static/js/main.7f41544b.js"
   ]
 }

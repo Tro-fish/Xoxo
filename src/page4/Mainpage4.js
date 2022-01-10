@@ -4,7 +4,7 @@ import styles from '../style.css';
 function Mainpage4() {
   return (
     <div
-      style={{ width: "1920px", height: "930px", backgroundColor: "#F4FFF7",overflow : 'hidden' }}
+      style={{ width: "100%", height: "930px", backgroundColor: "#F4FFF7",overflow : 'hidden' }}
     >
       <img
         style={{ width: "1900px", marginLeft: "0px",marginTop : '-130px' }}

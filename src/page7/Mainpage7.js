@@ -102,7 +102,7 @@ class Mainpage7 extends Component {
 
   render() {
     return (
-      <div style={{ width: "1920px", height: "800px", overflow: "hidden" }}>
+      <div style={{ width: "100%", height: "800px", overflow: "hidden" }}>
         <div
           style={{
             fontSize: "30px",

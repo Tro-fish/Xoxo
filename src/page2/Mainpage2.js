@@ -5,20 +5,20 @@ import Profile from "./profile.jpg";
 function Mainpage2() {
   return (
     <div
-      style={{ width: "1920px", height: "900px", backgroundColor: "#F4FFF7" }}
+      style={{ width: "100%", height: "900px", backgroundColor: "#F4FFF7" }}
     >
       <div style={{ paddingTop: "120px" }}>
-        <div style={{ fontSize: "40px", color: "#707070", marginLeft: "10%",fontFamily : 'jalnan'  }}>
+        <div style={{ fontSize: "40px", color: "#707070", marginLeft: "15%",fontFamily : 'jalnan'  }}>
           자신감있게 추천하는
         </div>
-        <div style={{ fontSize: "85px", color: "#1DFBB8", marginLeft: "10%",fontFamily : 'jalnan' }}>
+        <div style={{ fontSize: "85px", color: "#1DFBB8", marginLeft: "15%",fontFamily : 'jalnan' }}>
           Xoxo
         </div>
         <img
           src={Profile}
           style={{
            width : '19%',
-            marginLeft: "10%",
+            marginLeft: "15%",
             marginTop: "20px",
             boxShadow: "0px 3px 6px #B2B2B2",
           }}
@@ -31,7 +31,7 @@ function Mainpage2() {
         style={{
           position: "absolute",
           top: "1060px",
-          left: "570px",
+          left: "620px",
           width: "870px",
         }}
       ></img>
@@ -39,7 +39,7 @@ function Mainpage2() {
         style={{
           position: "absolute",
           top: "1240px",
-          left: "745px",
+          left: "795px",
           fontFamily : 'pretendard',
           fontSize: "30px",
         }}
@@ -50,7 +50,7 @@ function Mainpage2() {
         style={{
           position: "absolute",
           top: "1350px",
-          left: "725px",
+          left: "760px",
           color: "#707070",
           fontSize: "30px",
           fontFamily : 'pretendard',
@@ -62,7 +62,7 @@ function Mainpage2() {
         style={{
           position: "absolute",
           top: "1338px",
-          left: "800px",
+          left: "830px",
           color: "#707070",
           fontSize: "40px",
           fontFamily : 'pretendard',
@@ -76,7 +76,7 @@ function Mainpage2() {
           height: "1px",
           position: "absolute",
           top: "1410px",
-          left: "725px",
+          left: "760px",
           backgroundColor: "#707070",
         }}
       ></div>
@@ -84,7 +84,7 @@ function Mainpage2() {
         style={{
           position: "absolute",
           top: "1430px",
-          left: "725px",
+          left: "760px",
           color: "#707070",
           fontSize: "20px",
           fontFamily : 'pretendard',

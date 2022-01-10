@@ -2,7 +2,7 @@ import React from "react";
 
 function Mainpage3() {
   return (
-    <div style={{ width: "1920px", height: "900px" }}>
+    <div style={{ width: "100%", height: "900px" }}>
         <div style = {{paddingTop : '150px'}}></div>
       <div
         style={{

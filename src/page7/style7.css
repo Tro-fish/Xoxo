@@ -294,8 +294,3 @@
   animation-fill-mode: both;
   animation-delay: 0s;
 }
-
-@font-face {
-    font-family: 'pretendard';
-    src: url('../font/pretendard.css');
-}

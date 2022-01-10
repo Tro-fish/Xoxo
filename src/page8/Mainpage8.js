@@ -4,13 +4,23 @@ import { Route, Link } from "react-router-dom";
 function Mainpage8() {
   return (
     <div
-      style={{ width: "1920px", height: "500px", backgroundColor: "#F6F6F6" }}
+      style={{ width: "100%", height: "500px", backgroundColor: "#F6F6F6" }}
     >
-      <div style={{ display: "flex" }}>
-        <img
-          src={Logo}
-          style={{ width: "250px", marginLeft: "300px", marginTop: "50px" }}
-        ></img>
+       
+      <div style={{ display: "flex" }}>    
+      <div style={{ display: "flex",marginTop: "50px" }}>       
+        <div style ={{marginLeft: "300px",width:'100px',height:'100px',backgroundColor : 'white',borderRadius : '20px', boxShadow: "0px 1px 2px #B2B2B2"}}>
+          <sapn style = {{position : 'absolute', top : '6345px',marginLeft:'8px',color : '#1DFBB8',fontSize:'65px',fontFamily : 'Jalnan',zIndex :'100'}}>X</sapn>
+          <sapn style = {{position : 'absolute', top : '6342px',marginLeft:'10px',color : '#F6F6F6',fontSize:'70px',fontFamily : 'Jalnan',zIndex :'10'}}>X</sapn>
+          <sapn style = {{position : 'absolute', top : '6346px',marginLeft:'48px',color : '#F6F6F6',fontSize:'65px',fontFamily : 'Jalnan',zIndex : '10'}}>o</sapn>
+        </div>
+        <div style = {{paddingTop:'20px',paddingLeft : '20px',fontSize : '20px',fontFamily : 'Pretendard',color : '#707070'}}>
+          소비자마켓
+          <div style = {{padding:'0px',marginTop : '-10px',fontSize : '35px',fontFamily : 'Jalnan',color : '#1DFBB8'}}>
+          Xoxo
+        </div>
+        </div>
+        </div>
         <a
           target="_blank"
           href=""

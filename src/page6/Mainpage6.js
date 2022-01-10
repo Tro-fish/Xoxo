@@ -6,7 +6,7 @@ import Security from "./noun-security.svg";
 function Mainpage6() {
   return (
     <div
-      style={{ width: "1920px", height: "930px", backgroundColor: "#F4FFF7" }}
+      style={{ width: "100%", height: "930px", backgroundColor: "#F4FFF7" }}
     >
       <div
         style={{

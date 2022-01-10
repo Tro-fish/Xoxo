@@ -3,8 +3,9 @@ import xoxo1 from "./xoxo1.png";
 import Google from "./Google-Play.png";
 import Apple from "./Apple_Store.png";
 import Phone from "./Phone_original.png";
-import Character from "./Xoxo-character.png";
+import Character from "./Xoxo-character.gif";
 import styles from '../style.css';
+
 function Mainpage1() {
   const Google_btn = () => {
     alert("곧 플레이스토어에 출시 예정입니다!");
@@ -16,20 +17,29 @@ function Mainpage1() {
     alert("현재 준비중인 서비스입니다!");
   };
   return (
-    <div>
+    <div style ={{overflow : 'hidden'}}>
       <div
         style={{
-          width: "1920px",
+          width: "100%",
           height: "120px",
           boxShadow: "0px 3px 5px #5BF6C7",
           display: "flex",
           alignItems: "center",
         }}
       >
-        <img
-          src={xoxo1}
-          style={{ width: "13%", marginLeft: "12%", alignSelf: "flex-start" }}
-        />
+        
+        <div style ={{marginLeft: "12%",width:'100px',height:'100px',backgroundColor : 'white',borderRadius : '20px',boxShadow: "0px 1px 2px #B2B2B2",}}>
+          <sapn style = {{position : 'absolute', top : '15px',marginLeft:'8px',color : '#1DFBB8',fontSize:'65px',fontFamily : 'Jalnan',zIndex :'100'}}>X</sapn>
+          <sapn style = {{position : 'absolute', top : '12px',marginLeft:'10px',color : '#F6F6F6',fontSize:'70px',fontFamily : 'Jalnan',zIndex :'10'}}>X</sapn>
+          <sapn style = {{position : 'absolute', top : '16px',marginLeft:'48px',color : '#F6F6F6',fontSize:'65px',fontFamily : 'Jalnan',zIndex : '10'}}>o</sapn>
+        </div>
+        <div style = {{paddingTop:'10px',paddingLeft : '20px',fontSize : '20px',fontFamily : 'Pretendard',color : '#707070'}}>
+          소비자마켓
+          <div style = {{padding:'0px',marginTop : '-10px',fontSize : '35px',fontFamily : 'Jalnan',color : '#1DFBB8'}}>
+          Xoxo
+        </div>
+        </div>
+       
         <button
           onClick={Google_btn}
           style={{
@@ -64,7 +74,7 @@ function Mainpage1() {
           <img src={Apple} style={{ width: "77%", marginTop: "3px" }}></img>
         </button>
       </div>
-      <div style={{ width: "1910px; height : 900px" }}>
+      <div style={{ width: "100%; height : 900px" }}>
         <div style={{ paddingTop: "250px" }}>
           <div
             style={{
@@ -96,10 +106,10 @@ function Mainpage1() {
       <img
         src={Character}
         style={{
-          width: "150px",
+          width: "250px",
           position: "absolute",
-          top: "235px",
-          left: "50%",
+          top: "160px",
+          left: "48.5%",
           zIndex: "10",
         }}
       ></img>

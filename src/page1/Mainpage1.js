@@ -17,7 +17,7 @@ function Mainpage1() {
     alert("현재 준비중인 서비스입니다!");
   };
   return (
-    <div style ={{overflow : 'hidden'}}>
+    <div style ={{overflow : 'hidden', width: "100%"}}>
       <div
         style={{
           width: "100%",

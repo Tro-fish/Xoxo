@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
-import { colors } from '../colors';
-import logo from "../image/xoxo1.png";
+import { colors } from './colors';
+import logo from "./image/xoxo1.png";
 
 const Container = styled.div`
     display: flex;
@@ -19,12 +19,6 @@ const Logo = styled.img`
     width: 150px;
 `;
 
-const Btn = styled.button`
-    border: 0px;
-    background-color: white;
-    font-family: "pretendard";
-`;
-
 const LogoBtn = styled.button`
     border: 0px;
     background-color: white;
@@ -40,20 +34,30 @@ const Box1 = styled.div`
 `;
 
 const Text = styled.text`
+    font-family:"pretendard";
+    color: black;
     font-weight: 700;
 `;
 
+const A = styled.a`
+    text-decoration: none;
+    margin: 0px 10px;
+`;
+
 export default function HeadLine() {
+    
     return (
         <Container>
-            <LogoBtn>
-                <Logo src={logo}/>
-            </LogoBtn>
+            <A href="./Mainpage.js" rel="noopener noreferrer">
+                <LogoBtn>
+                    <Logo src={logo}/>
+                </LogoBtn>
+            </A>
             <Box1>
-                <Btn><Text>회사소개</Text></Btn>
-                <Btn><Text>앱</Text></Btn>
-                <Btn><Text>쏘쏘뉴스</Text></Btn>
-                <Btn><Text>FAQ</Text></Btn>
+                <A href="./CoIntro.js" rel="noopener noreferrer"><Text>회사소개</Text></A>
+                <A href="./Mainpage.js" rel="noopener noreferrer"><Text>앱</Text></A>
+                <A href="./xoxoNews.js" rel="noopener noreferrer"><Text>쏘쏘뉴스</Text></A>
+                <A href="./info.js" rel="noopener noreferrer"><Text>FAQ</Text></A>
             </Box1>
         </Container>
     );

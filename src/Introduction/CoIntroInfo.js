@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { colors } from '../colors';
 
 const Container = styled.div`
-    background-color: white;
+    background-color: ${colors.gray};
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -58,15 +58,19 @@ const Bar = styled.text`
     margin: 0px 10px;
 `;
 
-export default function MainInfo() {
+const A = styled.a`
+    text-decoration: none;
+`;
+
+export default function CoIntroInfo() {
     return (
         <Container>
             <LinkBox>
-                <a><Text1>개인정보 수집 및 이용 동의</Text1></a>
-                <a><Text1>개인정보처리방침</Text1></a>
-                <a><Text1>서비스 이용약관</Text1></a>
-                <a><Text1>위치기반서비스 이용약관</Text1></a>
-                <a><Text1>공지사항</Text1></a>
+                <A href="../info.js" rel="noopener noreferrer"><Text1>개인정보 수집 및 이용 동의</Text1></A>
+                <A href="../info.js" rel="noopener noreferrer"><Text1>개인정보처리방침</Text1></A>
+                <A href="../info.js" rel="noopener noreferrer"><Text1>서비스 이용약관</Text1></A>
+                <A href="../info.js" rel="noopener noreferrer"><Text1>위치기반서비스 이용약관</Text1></A>
+                <A href="../info.js" rel="noopener noreferrer"><Text1>공지사항</Text1></A>
             </LinkBox>
             <TextBox>
                 <Text3>

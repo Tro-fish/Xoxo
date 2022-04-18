@@ -21,7 +21,7 @@ const Box = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin: 10vh 0px;
 `;
 
@@ -37,6 +37,7 @@ const ContentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 25vw;
+    justify-content: center;
 `;
 
 const TitleBox = styled.div`
@@ -53,6 +54,7 @@ const BText = styled.text`
     font-family: "pretendard";
     font-size: 35px;
     font-weight: 900;
+    margin-bottom: 5vh;
 `;
 
 const Text3 = styled.text`
@@ -62,6 +64,7 @@ const Text3 = styled.text`
 
 const Text4 = styled.text`
     font-family: "pretendard";
+    margin-top: 1vh;
 `;
 
 export default function Main01() {
@@ -69,10 +72,10 @@ export default function Main01() {
         <Container>
             <TextBox>
                 <Text1>01.</Text1>
-                <Box>
+                <Box style={{alignItems:"flex-end"}}>
                     <TitleBox>
                         <BText>WE ARE</BText>
-                        <BText>XOXO MARKET</BText>
+                        <BText style={{marginBottom:"0vh"}}>XOXO MARKET</BText>
                     </TitleBox>
                     <Text3>이유있는 추천</Text3>
                 </Box>

@@ -83,6 +83,7 @@ const Btn = styled.button`
     border-radius: 20px;
     background-color: ${colors.mint};
     border: 0px;
+    margin: 5vh 0vw;
 `;
 
 

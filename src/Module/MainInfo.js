@@ -62,7 +62,7 @@ const A = styled.a`
     text-decoration: none;
 `;
 
-export default function MainInfo() {
+export default function Info() {
     return (
         <Container>
             <LinkBox>

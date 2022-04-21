@@ -7,13 +7,13 @@ import Mainpage5 from "./page5/Mainpage5";
 import Mainpage6 from "./page6/Mainpage6";
 import Mainpage7 from "./page7/Mainpage7";
 import Mainpage8 from "./page8/Mainpage8";*/
-import HeadLine from "./HeadLine";
-import Mainpage from "./Main/Mainpage";
-import Main01 from "./Main/Main01";
-import Main02 from "./Main/Main02";
-import Main03 from "./Main/Main03";
-import Main04 from "./Main/Main04";
-import MainInfo from "./Main/MainInfo";
+import HeadLine from "../Module/HeadLine";
+import Mainpage from "../Main/Mainpage";
+import Main01 from "../Main/Main01";
+import Main02 from "../Main/Main02";
+import Main03 from "../Main/Main03";
+import Main04 from "../Main/Main04";
+import MainInfo from "../Module/MainInfo";
 
 import { Route, Routes } from "react-router-dom";
 

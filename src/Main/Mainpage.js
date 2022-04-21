@@ -11,7 +11,6 @@ const Container = styled.div`
     display: flex;
     margin-top: 10vh;
     width: 100vw;
-    height: 94vh;
     align-items: center;
 `;
 
@@ -20,6 +19,7 @@ const TextBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin: 45vh 0vw;
     margin-left: 10vw;
 `;
 

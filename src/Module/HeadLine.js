@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
-import { colors } from './colors';
-import logo from "./image/xoxo1.png";
+import { colors } from '../colors';
+import logo from "../image/xoxo1.png";
 
 const Container = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.img`
-    width: 150px;
+    width: 10vw;
 `;
 
 const LogoBtn = styled.button`
@@ -37,6 +37,7 @@ const Text = styled.text`
     font-family:"pretendard";
     color: black;
     font-weight: 700;
+    font-size: 1vw;
 `;
 
 const A = styled.a`
@@ -54,10 +55,10 @@ export default function HeadLine() {
                 </LogoBtn>
             </A>
             <Box1>
-                <A href="./CoIntro.js" rel="noopener noreferrer"><Text>회사소개</Text></A>
-                <A href="./Mainpage.js" rel="noopener noreferrer"><Text>앱</Text></A>
-                <A href="./xoxoNews.js" rel="noopener noreferrer"><Text>쏘쏘뉴스</Text></A>
-                <A href="./info.js" rel="noopener noreferrer"><Text>FAQ</Text></A>
+                <A href="./coIntro.js" rel="noopener noreferrer"><Text>회사소개</Text></A>
+                <A href="./mainpage.js" rel="noopener noreferrer"><Text>앱</Text></A>
+                <A href="./xoxoNews01.js" rel="noopener noreferrer"><Text>쏘쏘뉴스</Text></A>
+                <A href="./faq01.js" rel="noopener noreferrer"><Text>FAQ</Text></A>
             </Box1>
         </Container>
     );

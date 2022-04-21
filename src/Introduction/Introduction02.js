@@ -5,7 +5,7 @@ import { colors } from '../colors';
 const Container = styled.div`
     background-color: white;
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 `;

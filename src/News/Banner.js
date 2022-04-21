@@ -8,7 +8,7 @@ const Container = styled.div`
     background-position: center center;
     display: flex;
     margin-top: 10vh;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     align-items: center;
 `;

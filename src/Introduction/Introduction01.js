@@ -7,8 +7,8 @@ const Container = styled.div`
     background-image: url(${backimg});
     background-size: cover;
     display: flex;
-    margin-top: 12vh;
-    width: 100vw;
+    margin-top: 6vh;
+    width: 100%;
     align-items: center;
 `;
 

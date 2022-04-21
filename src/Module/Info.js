@@ -5,7 +5,7 @@ import { colors } from '../colors';
 const Container = styled.div`
     background-color: ${colors.gray};
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;

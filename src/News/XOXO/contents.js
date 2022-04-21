@@ -11,7 +11,7 @@ const Container = styled.div`
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 `;
@@ -118,7 +118,7 @@ export default function Contents() {
             </TextBox>
 
             <IndexBox>
-            <A href="./xoxoNews01.js" rel="noopener noreferrer"><BText>전체</BText></A>
+                <A href="./xoxoNews01.js" rel="noopener noreferrer"><BText>전체</BText></A>
                 <A href="./xoxoNews02.js" rel="noopener noreferrer"><BText>보도이슈</BText></A>
                 <A href="./xoxoNews03.js" rel="noopener noreferrer"><BText style={{color:"black"}}>쏘쏘이슈</BText></A>
             </IndexBox>

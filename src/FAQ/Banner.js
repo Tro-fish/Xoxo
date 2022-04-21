@@ -7,7 +7,7 @@ const Container = styled.div`
     background-size: cover;
     display: flex;
     margin-top: 10vh;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 `;
 

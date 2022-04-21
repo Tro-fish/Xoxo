@@ -7,7 +7,7 @@ const Container = styled.div`
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 `;
@@ -86,7 +86,9 @@ const Btn = styled.button`
     margin: 5vh 0vw;
 `;
 
-
+const A = styled.a`
+    text-decoration: none;
+`;
 
 
 
@@ -136,7 +138,7 @@ export default function Main02() {
                     </ContentBox>
                 </QnABox2>
                 <BtnBox>
-                <Btn><Text1 style={{fontWeigt:"800"}}>더보기</Text1></Btn>
+                    <A href="./faq01.js" rel="noopener noreferrer"><Btn><Text1 style={{fontWeigt:"800"}}>더보기</Text1></Btn></A>
                 </BtnBox>
             </TextBox>
             

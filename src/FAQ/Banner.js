@@ -24,7 +24,7 @@ const Text = styled.text`
     font-family: "pretendard";
     color: black;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 5vh;
     margin: 5px 0px;
 `;
 

@@ -34,7 +34,7 @@ const Text1 = styled.text`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 35px;
+    font-size: 5vh;
     font-weight: 900;
 `;
 

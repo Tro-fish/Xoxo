@@ -35,6 +35,7 @@ const QnABox2 = styled.div`
 const Text1 = styled.text`
     font-family: "pretendard";
     margin-top: 2vh;
+    font-size: 2vh;
 `;
 
 const Text2 = styled.text`
@@ -42,6 +43,7 @@ const Text2 = styled.text`
     font-weight: 900;
     color: black;
     margin-right: 1vw;
+    font-size: 2vh;
 `;
 
 const Text3 = styled.text`
@@ -49,6 +51,7 @@ const Text3 = styled.text`
     color: ${colors.darkGray};
     margin: 2vh 0vw;
     margin-right: 1vw;
+    font-size: 2vh;
 `;
 
 const Text4 = styled.text`
@@ -56,6 +59,7 @@ const Text4 = styled.text`
     font-weight: 900;
     color: ${colors.mint};
     margin-right: 1vw;
+    font-size: 2vh;
 `;
 
 
@@ -70,15 +74,15 @@ export default function QnA01() {
                 <QnABox1>
                     <Text3>01.</Text3>
                     <ContentBox>
-                        <Text1><Text4>Q</Text4>쏘쏘마켓은 어떤 어플리케이션 인가요?</Text1>
-                        <Text3><Text2>A</Text2>실시간 모니터링으로 늘 확인 중에 있습니다! 빠른조치 해드릴께요!</Text3>
+                        <Text1><Text4>Q</Text4>라이푸마켓은 어떤 어플리케이션 인가요?</Text1>
+                        <Text3><Text2>A</Text2>네! 실시간 모니터링으로 늘 확인 중에 있습니다! 빠른조치 해드릴께요!</Text3>
                     </ContentBox>
                 </QnABox1>
                 <QnABox1>
                     <Text3>02.</Text3>
                     <ContentBox>
                         <Text1><Text4>Q</Text4>이용정지가 되었어요! 이용정지 기준이 어떻게 되나요?</Text1>
-                        <Text3><Text2>A</Text2>확인후 쏘쏘마켓으로 언제든 문의 주세요!</Text3>
+                        <Text3><Text2>A</Text2>설정에 약관이 나와 있습니다. 확인후 라이푸마켓으로 언제든 문의 주세요!</Text3>
                     </ContentBox>
                 </QnABox1>
                 <QnABox1>

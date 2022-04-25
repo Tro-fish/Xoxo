@@ -52,6 +52,20 @@ const BtnText = styled.text`
     color: ${colors.darkGray};
 `;
 
+const Text2 = styled.text`
+    font-family: "pretendard";
+    color: ${colors.gray};
+    font-size: 2vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+`;
+const TextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 3vh;
+`;
+
 const A = styled.a`
     text-decoration: none;
 `;
@@ -98,7 +112,9 @@ export default function Main02() {
                 <A href="./faq03.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
                 <A href="./faq04.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
             </IndexBox>
-            
+            <TextBox>
+                <Text2>라이푸 마켓 문의는 02-2067-3083 으로 부탁드려요!</Text2>
+            </TextBox>
             <QnA />
 
             <BtnBox>

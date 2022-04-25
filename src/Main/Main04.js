@@ -32,19 +32,18 @@ const BtnBox = styled.div`
 const Btn = styled.button`
     background-color: white;
     border: 0px;
-    border-radius: 30px;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15vw;
-    height: 7vh;
-    margin: 10px;
+    padding: 0vw 3vw;
+    margin: 5vh;
     margin-left: 0px;
     box-shadow: "0px 3px 5px #B2B2B2";
 `;
 
 const Image = styled.img`
-    width: 10vw;
+    width: 13vh;
 `;
 
 const Text1 = styled.text`
@@ -54,7 +53,7 @@ const Text1 = styled.text`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 35px;
+    font-size: 5vh;
     font-weight: 900;
     margin-top: 10vh;
 `;

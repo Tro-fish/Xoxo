@@ -52,7 +52,7 @@ const Text1 = styled.text`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 35px;
+    font-size: 5vh;
     font-weight: 900;
     margin-bottom: 5vh;
 `;
@@ -75,7 +75,7 @@ export default function Main01() {
                 <Box style={{alignItems:"flex-end"}}>
                     <TitleBox>
                         <BText>WE ARE</BText>
-                        <BText style={{marginBottom:"0vh"}}>XOXO MARKET</BText>
+                        <BText style={{marginBottom:"0vh"}}>LifeU</BText>
                     </TitleBox>
                     <Text3>이유있는 추천</Text3>
                 </Box>

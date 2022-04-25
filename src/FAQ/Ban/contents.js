@@ -52,6 +52,20 @@ const BtnText = styled.text`
     color: ${colors.darkGray};
 `;
 
+const Text2 = styled.text`
+    font-family: "pretendard";
+    color: ${colors.gray};
+    font-size: 2vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+`;
+const TextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 3vh;
+`;
+
 const A = styled.a`
     text-decoration: none;
 `;
@@ -98,6 +112,10 @@ export default function Main02() {
                 <A href="./faq03.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
                 <A href="./faq04.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
             </IndexBox>
+            <TextBox>
+                <Text2>거래 시 이용약관 동의를 꼼꼼히 읽어봐주세요! 이용약관 불이행 시 이용 제제는 물론 법적 제재를 받을 수 있는 점 이해 바랍니다!</Text2>
+                <Text2>(미성년자 술,담배,성매매 등 법적고지 사항을 잘 지켜주세요!)</Text2>
+            </TextBox>
             
             <QnA />
 

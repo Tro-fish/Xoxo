@@ -1,8 +1,11 @@
 import React from "react";
 import Gif from "./webgif_2.gif";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 function Mainpage5() {
   return (
+    <div>
+    <BrowserView>
     <div style={{ width: "100%", height: "900px", overflow: "clip" }}>
       <img
         style={{
@@ -48,6 +51,11 @@ function Mainpage5() {
       >
         이웃들과 충분한 대화 후,<br></br> 거래 약속을 잡아보세요
       </div>
+    </div>
+    </BrowserView>
+    <MobileView>
+
+    </MobileView>
     </div>
   );
 }

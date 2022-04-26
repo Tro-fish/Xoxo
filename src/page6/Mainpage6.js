@@ -2,9 +2,12 @@ import React from "react";
 import Commission from "./noun-commission.svg";
 import Easy from "./noun-easy.svg";
 import Security from "./noun-security.svg";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 function Mainpage6() {
   return (
+    <div>
+    <BrowserView>
     <div
       style={{ width: "100%", height: "930px", backgroundColor: "#F4FFF7" }}
     >
@@ -102,6 +105,11 @@ function Mainpage6() {
         <span style={{ fontSize: "22px" }}>수수료률</span> 최저<br></br>어플 내{" "}
         <span style = {{fontSize : '22px'}}>쏘쏘페이</span> 운영
       </div>
+    </div>
+    </BrowserView>
+    <MobileView>
+
+    </MobileView>
     </div>
   );
 }

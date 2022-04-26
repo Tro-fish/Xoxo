@@ -1,9 +1,13 @@
 import React from "react";
 import Talk from "./talk.png";
 import Profile from "./profile.jpg";
+import { BrowserView, MobileView } from 'react-device-detect';
+
 
 function Mainpage2() {
   return (
+    <div>
+    <BrowserView>
     <div
       style={{ width: "100%", height: "900px", backgroundColor: "#F4FFF7" }}
     >
@@ -100,6 +104,11 @@ function Mainpage2() {
         의견을 항상 적극 수렴하고, 발전시킬 것 입니다.<br></br> 믿고
         이용해주셔도 괜찮습니다. 감사합니다 !
       </div>
+    </div>
+    </BrowserView>
+    <MobileView>
+
+    </MobileView>
     </div>
   );
 }

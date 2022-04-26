@@ -1,6 +1,8 @@
+
 import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 const Container = styled.div`
     background-color: white;
@@ -69,6 +71,8 @@ const Text4 = styled.text`
 
 export default function Main01() {
     return (
+        <div>
+        <BrowserView>
         <Container>
             <TextBox>
                 <Text1>01.</Text1>
@@ -105,6 +109,10 @@ export default function Main01() {
                 </Box>
             </TextBox>
         </Container>
-
+        </BrowserView>
+        <MobileView>
+            <h1>Main01</h1>
+        </MobileView>
+        </div>
     );
 }

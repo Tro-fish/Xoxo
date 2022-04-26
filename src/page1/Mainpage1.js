@@ -5,6 +5,10 @@ import Apple from "./Apple_Store.png";
 import Phone from "./Phone_original.png";
 import Character from "./Xoxo-character.gif";
 import styles from '../style.css';
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
 
 function Mainpage1() {
   const Google_btn = () => {
@@ -17,6 +21,8 @@ function Mainpage1() {
     alert("현재 준비중인 서비스입니다!");
   };
   return (
+    <div>
+    <BrowserView>
     <div style ={{overflow : 'hidden', width: "100%"}}>
       <div
         style={{
@@ -175,6 +181,11 @@ function Mainpage1() {
           자주하는 질문
         </button>
       </div>
+    </div>
+    </BrowserView>
+    <MobileView>
+      <h1>모바일 테스트입니다.</h1>
+    </MobileView>
     </div>
   );
 }

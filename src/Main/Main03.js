@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 
 const Container = styled.div`
@@ -106,6 +107,8 @@ const A = styled.a`
 export default function Main02() {
     
     return (
+        <div>
+    <BrowserView>
         <Container>
             <TextBox >
                 <Text1 >03.</Text1>
@@ -154,5 +157,10 @@ export default function Main02() {
             </TextBox>
             
         </Container>
+        </BrowserView>
+        <MobileView>
+            <h1>Main01</h1>
+        </MobileView>
+        </div>
     );
 }

@@ -4,6 +4,7 @@ import { colors } from '../colors';
 import backimg from "../image/4.jpg";
 import Google from "../image/Google-Play.png";
 import Apple from "../image/Apple_Store.png";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 const Container = styled.div`
     background-image: url(${backimg});
@@ -80,6 +81,8 @@ export default function Mainpage() {
     };
     
     return (
+        <div>
+        <BrowserView>
         <Container>
             <TextBox>
                 <Text1>LifeU's with your Life</Text1>
@@ -96,6 +99,11 @@ export default function Mainpage() {
                 </BtnBox>
             </TextBox>
         </Container>
+        </BrowserView>
+        <MobileView>
+            <h1>모바일 테스트입니다.</h1>
+        </MobileView>
+        </div>
 
     );
 }

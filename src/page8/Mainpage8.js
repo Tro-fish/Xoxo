@@ -2,9 +2,13 @@ import React from "react";
 import Logo from "./xoxo1.png";
 import { Route, Link, Routes } from "react-router-dom";
 import info from "../info";
+import { BrowserView, MobileView } from 'react-device-detect';
+
 function Mainpage8() {
  
   return (
+    <div>
+    <BrowserView>
     <div style={{ width: "100%", height: "500px", backgroundColor: "#F6F6F6" }}>
       <div style={{ display: "flex" }}>
         <div style={{ display: "flex", marginTop: "50px" }}>
@@ -302,6 +306,11 @@ function Mainpage8() {
         서울특별시 금천구 가산디지털 1로 142 더스카이밸리 1차 414호
       </div>
      
+    </div>
+    </BrowserView>
+    <MobileView>
+
+    </MobileView>
     </div>
   );
 }

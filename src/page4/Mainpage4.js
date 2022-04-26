@@ -1,8 +1,12 @@
 import React from "react";
 import Gif from "./2.gif";
 import styles from '../style.css';
+import { BrowserView, MobileView } from 'react-device-detect';
+
 function Mainpage4() {
   return (
+    <div>
+    <BrowserView>
     <div
       style={{ width: "100%", height: "930px", backgroundColor: "#F4FFF7",overflow : 'hidden' }}
     >
@@ -46,6 +50,11 @@ function Mainpage4() {
       >
         가격 걱정 없이 평균 거래되는<br></br> 가격 범위를 표시해줘요 !
       </div>
+    </div>
+    </BrowserView>
+    <MobileView>
+
+    </MobileView>
     </div>
   );
 }

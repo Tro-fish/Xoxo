@@ -12,6 +12,7 @@ import Left from "./left.png";
 import Right from "./right.png";
 import style7 from "./style7.css";
 import styled from "styled-components";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 let left_btn_cnt = 0;
 let right_btn_cnt = 0;
@@ -102,6 +103,8 @@ class Mainpage7 extends Component {
 
   render() {
     return (
+      <div>
+      <BrowserView>
       <div style={{ width: "100%", height: "800px", overflow: "hidden" }}>
         <div
           style={{
@@ -207,6 +210,11 @@ class Mainpage7 extends Component {
           ></Card>
         </div>
       </div>
+      </BrowserView>
+    <MobileView>
+
+    </MobileView>
+    </div>
     );
   }
 }

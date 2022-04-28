@@ -26,10 +26,10 @@ const IndexBox = styled.div`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 4vh;
+    font-size: ${colors.title};
     font-weight: 900;
     color: ${colors.darkGray};
-    margin-right: 20px;
+    margin-right: 2vw;
 `;
 
 const BtnBox = styled.div`
@@ -47,7 +47,7 @@ const Btn = styled.button`
 
 const BtnText = styled.text`
     font-family: "pretendard";
-    font-size: 2vw;
+    font-size: ${colors.semititle};
     font-weight: 700;
     color: ${colors.darkGray};
 `;
@@ -55,7 +55,7 @@ const BtnText = styled.text`
 const Text2 = styled.text`
     font-family: "pretendard";
     color: ${colors.gray};
-    font-size: 2vh;
+    font-size: ${colors.content};
     margin-right: 1vw;
     margin-top: 1vh;
 `;
@@ -113,17 +113,15 @@ export default function Main02() {
                 <A href="./faq04.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
             </IndexBox>
             <TextBox>
-                <Text2>거래 시 이용약관 동의를 꼼꼼히 읽어봐주세요! 이용약관 불이행 시 이용 제제는 물론 법적 제재를 받을 수 있는 점 이해 바랍니다!</Text2>
-                <Text2>(미성년자 술,담배,성매매 등 법적고지 사항을 잘 지켜주세요!)</Text2>
+                <Text2>라이푸 마켓 문의는 02-2067-3083 으로 부탁드려요!</Text2>
             </TextBox>
-            
             <QnA />
 
             <BtnBox>
                 <Btn onClick={onDecrease}>
                     <FiChevronLeft
                         style={{
-                            fontSize: "2vw",
+                            fontSize: `${colors.semititle}`,
                             fontWeight: "700",
                             marginTop: "1vh",
                             color: `${colors.darkGray}`
@@ -135,7 +133,7 @@ export default function Main02() {
                 <Btn onClick={onIncrease}>
                     <FiChevronRight
                         style={{
-                            fontSize: "2vw",
+                            fontSize: `${colors.semititle}`,
                             fontWeight: "700",
                             marginTop: "1vh",
                             color: `${colors.darkGray}`

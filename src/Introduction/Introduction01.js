@@ -25,13 +25,13 @@ const Text1 = styled.text`
     font-family: "pretendard";
     color: white;
     font-weight: 900;
-    font-size: 5vh;
+    font-size: ${colors.title};
     margin-bottom: 5vh;
 `;
 
 const Text2 = styled.text`
     font-family: "pretendard";
-    font-size: 3vh;
+    font-size: ${colors.semititle};
     font-weight: 600;
     color: white;
     margin-bottom: 3vh;
@@ -39,7 +39,7 @@ const Text2 = styled.text`
 
 const Text3 = styled.text`
     font-family: "pretendard";
-    font-size: 3vh;
+    font-size: ${colors.semititle};
     font-weight: 800;
     color: white;
     margin-bottom: 3vh;

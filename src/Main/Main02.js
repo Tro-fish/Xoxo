@@ -5,8 +5,9 @@ import { colors } from '../colors';
 const GrayBox = styled.div`
     background-color: gray;
     width: 60vw;
-    height: 60vh;
+    height: 30vw;
     margin-top: 8vh;
+    margin-bottom: 10vw;
 `;
 
 const Container = styled.div`
@@ -14,7 +15,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 110vh;
     justify-content: center;
     align-items: center;
 `;
@@ -26,15 +26,17 @@ const TextBox = styled.div`
     align-items: flex-start;
     width: 60vw;
     height: 15vh;
+    margin-top: 10vw;
 `;
 
 const Text1 = styled.text`
     font-family: "pretendard";
+    font-size: ${colors.content};
 `;
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
 `;
 

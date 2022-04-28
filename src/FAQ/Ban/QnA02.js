@@ -35,7 +35,7 @@ const QnABox2 = styled.div`
 const Text1 = styled.text`
     font-family: "pretendard";
     margin-top: 2vh;
-    font-size: 2vh;
+    font-size: ${colors.content};
 `;
 
 const Text2 = styled.text`
@@ -43,7 +43,7 @@ const Text2 = styled.text`
     font-weight: 900;
     color: black;
     margin-right: 1vw;
-    font-size: 2vh;
+    font-size: ${colors.content};
 `;
 
 const Text3 = styled.text`
@@ -51,7 +51,7 @@ const Text3 = styled.text`
     color: ${colors.darkGray};
     margin: 2vh 0vw;
     margin-right: 1vw;
-    font-size: 2vh;
+    font-size: ${colors.content};
 `;
 
 const Text4 = styled.text`
@@ -59,7 +59,7 @@ const Text4 = styled.text`
     font-weight: 900;
     color: ${colors.mint};
     margin-right: 1vw;
-    font-size: 2vh;
+    font-size: ${colors.content};
 `;
 
 

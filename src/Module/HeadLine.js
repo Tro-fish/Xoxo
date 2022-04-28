@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.img`
-    width: 20vh;
+    width: 10vw;
 `;
 
 const LogoBtn = styled.button`
@@ -31,14 +31,14 @@ const Box1 = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-right: 100px;
-    width: 30vw;
+    width: 45vw;
 `;
 
 const Text = styled.text`
     font-family:"pretendard";
     color: black;
     font-weight: 700;
-    font-size: 2vh;
+    font-size: 1vw;
 `;
 
 const A = styled.a`

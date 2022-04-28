@@ -27,11 +27,12 @@ const TextBox = styled.div`
 const Text1 = styled.text`
     font-family: "pretendard";
     margin-top: 2vh;
+    font-size: ${colors.content};
 `;
 
 const Title = styled.text`
     font-family: "pretendard";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
 `;
 
@@ -50,7 +51,7 @@ const Btn = styled.button`
 
 const BtnText = styled.text`
     font-family: "pretendard";
-    font-size: 3vh;
+    font-size: ${colors.semititle};
     font-weight: 700;
     color: ${colors.darkGray};
 `;
@@ -65,7 +66,7 @@ const IndexBox = styled.div`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 4vh;
+    font-size: ${colors.semititle};
     font-weight: 900;
     color: ${colors.darkGray};
     margin-right: 20px;
@@ -129,7 +130,7 @@ export default function Contents() {
                 <Btn onClick={onDecrease}>
                     <FiChevronLeft
                         style={{
-                            fontSize: "3vh",
+                            fontSize: `${colors.title}`,
                             fontWeight: "700",
                             marginTop: "1vh",
                             color: `${colors.darkGray}`
@@ -141,7 +142,7 @@ export default function Contents() {
                 <Btn onClick={onIncrease}>
                     <FiChevronRight
                         style={{
-                            fontSize: "3vh",
+                            fontSize: `${colors.title}`,
                             fontWeight: "700",
                             marginTop: "1vh",
                             color: `${colors.darkGray}`

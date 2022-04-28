@@ -25,7 +25,7 @@ const TextBox = styled.div`
 
 const Text1 = styled.text`
     font-family: "Pretendard";
-    font-size: 2vh;
+    font-size: ${colors.content};
     font-weight: 600;
     color: white;
     margin-bottom: 7px;
@@ -36,7 +36,7 @@ const Text2 = styled.text`
     font-family: "pretendard";
     color: white;
     font-weight: 800;
-    font-size: 5vh;
+    font-size: ${colors.semititle};
     margin: 5px 0px;
 `;
 
@@ -44,7 +44,7 @@ const Text3 = styled.text`
     font-family: "Pretendard";
     color: white;
     font-weight: 1000;
-    font-size: 6vh;
+    font-size: ${colors.title};
     color: ${colors.mint};
     
 `;
@@ -69,7 +69,7 @@ const Btn = styled.button`
 `;
 
 const Image = styled.img`
-    width: 10vh;
+    width: 5vw;
 `;
 
 export default function Mainpage() {

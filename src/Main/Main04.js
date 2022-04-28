@@ -44,17 +44,18 @@ const Btn = styled.button`
 `;
 
 const Image = styled.img`
-    width: 13vh;
+    width: 7vw;
 `;
 
 const Text1 = styled.text`
     font-family: "pretendard";
+    font-size: ${colors.content};
     color: black;
 `;
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
     margin-top: 10vh;
 `;

@@ -17,7 +17,6 @@ const Box = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: space-between;
-    width: 60vw;
     margin-top: 8vh;
 `;
 
@@ -25,8 +24,8 @@ const Image = styled.div`
     background-size: cover;
     background-position: center center;
     display: flex;
-    width: 28vw;
-    height: 25vh;
+    width: 45vw;
+    height: 15vw;
     border-radius: 20px;
 `;
 
@@ -35,16 +34,16 @@ const Image = styled.div`
 
 
 
-export default function EventPage02() {
+export default function EventPage01() {
     
     return (
         <ContentBox>
             <Box>
-                <Image style={{ backgroundImage: `url(${backimg})` }} />
+                <Image style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw" }} />
                 <Image style={{ backgroundImage: `url(${backimg01})`, border:`2px solid ${colors.gray}` }} />
             </Box>
             <Box>
-                <Image style={{ backgroundImage: `url(${backimg})` }} />
+                <Image style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw"}} />
                 <Image style={{ backgroundImage: `url(${backimg01})`, border:`2px solid ${colors.gray}` }} />
             </Box>
         </ContentBox>

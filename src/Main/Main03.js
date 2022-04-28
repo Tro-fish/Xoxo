@@ -43,19 +43,20 @@ const QnABox2 = styled.div`
 
 const Text1 = styled.text`
     font-family: "pretendard";
-    font-size: 2vh;
+    font-size: ${colors.content};
     margin-top: 2vh;
 `;
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
 `;
 
 const Text2 = styled.text`
     font-family: "pretendard";
     font-weight: 900;
+    font-size: ${colors.content};
     color: black;
     margin-right: 1vw;
 `;
@@ -63,7 +64,7 @@ const Text2 = styled.text`
 const Text3 = styled.text`
     font-family: "pretendard";
     color: ${colors.darkGray};
-    font-size: 2vh;
+    font-size: ${colors.content};
     margin: 2vh 0vw;
     margin-right: 1vw;
 `;
@@ -72,13 +73,13 @@ const Text4 = styled.text`
     font-family: "pretendard";
     font-weight: 900;
     color: ${colors.mint};
-    font-size: 2vh;
+    font-size: ${colors.content};
     margin-right: 1vw;
 `;
 
 const Text5 = styled.text`
     font-family: "pretendard";
-    font-size: 2vh;
+    font-size: ${colors.content};
     font-weight: 800;
     margin-top: 2vh;
 `;
@@ -89,8 +90,7 @@ const BtnBox = styled.div`
     justify-content: flex-end;
 `;
 const Btn = styled.button`
-    width: 10vh;
-    height: 5vh;
+    padding: 1vw 2vw;
     border-radius: 50px;
     background-color: ${colors.mint};
     border: 0px;

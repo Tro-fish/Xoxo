@@ -27,7 +27,7 @@ const Box = styled.div`
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: 4vh;
+    font-size: ${colors.semititle};
     font-weight: 900;
     color: black;
     margin-right: 20px;
@@ -35,19 +35,19 @@ const BText = styled.text`
 
 const Text1 = styled.div`
     font-family: "pretendard";
-    font-size: 3vh;
+    font-size: 1.7vw;
     font-weight: 600;
 `;
 
 const Text2 = styled.div`
     font-family: "pretendard";
-    font-size: 1vw;
+    font-size: ${colors.content};
     margin-top: 10px;
 `;
 
 const Image = styled.div`
     width: 25vw;
-    height: 35vh;
+    height: 15vw;
     border: 1px solid ${colors.gray};
     margin-top: 10px;
 `;

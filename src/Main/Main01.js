@@ -12,8 +12,8 @@ const Container = styled.div`
 
 const GrayBox = styled.div`
     background-color: gray;
-    width: 25vw;
-    height: 25vh;
+    width: 30vw;
+    height: 20vw;
     border-radius: 10px;
 `;
 
@@ -48,23 +48,26 @@ const TitleBox = styled.div`
 
 const Text1 = styled.text`
     font-family: "pretendard";
+    font-size: ${colors.content};
 `;
 
 const BText = styled.text`
     font-family: "pretendard-black";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
     margin-bottom: 5vh;
 `;
 
 const Text3 = styled.text`
     font-family: "pretendard";
+    font-size: ${colors.content};
     font-weight: 800;
 `;
 
 const Text4 = styled.text`
     font-family: "pretendard";
     margin-top: 1vh;
+    font-size: ${colors.content};
 `;
 
 export default function Main01() {

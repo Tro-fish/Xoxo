@@ -5,4 +5,9 @@ export const colors = {
     darkGray: '#707070',
     lightGray: '#F6F6F6',
     blue: "#0095F6",
+    
+    title: "2.7vw",
+    semititle: "2vw",
+    content: "1vw",
+    
   };

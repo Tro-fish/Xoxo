@@ -1,12 +1,13 @@
 import React from "react";
 import styled from 'styled-components';
 import backimg from "../image/3.jpg";
+import { colors } from "../colors";
 
 const Container = styled.div`
     background-image: url(${backimg});
     background-size: cover;
     display: flex;
-    margin-top: 10vh;
+    margin-top: 2vw;
     width: 100%;
     align-items: center;
 `;
@@ -24,7 +25,7 @@ const Text = styled.text`
     font-family: "pretendard";
     color: black;
     font-weight: 900;
-    font-size: 5vh;
+    font-size: ${colors.title};
     margin: 5px 0px;
 `;
 

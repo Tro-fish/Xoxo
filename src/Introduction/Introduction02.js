@@ -40,15 +40,17 @@ const Text1 = styled.text`
     font-family: "pretendard";
     margin-left: 30px;
     margin-top: 5vh;
+    font-size: ${colors.content};
 `;
 
 const Text2 = styled.text`
     font-family: "pretendard";
+    font-size: ${colors.content};
 `;
 
 const BText= styled.text`
     font-family: "pretendard";
-    font-size: 5vh;
+    font-size: ${colors.title};
     font-weight: 900;
 `;
 

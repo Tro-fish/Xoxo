@@ -6,3 +6,14 @@
     font-family: 'jalnan';
     src: url('./font/JalnanOTF.otf');
 }
+@font-face {
+    font-family: 'pretendard-bold';
+    font-weight: 900;
+    src: url("./font/Pretendard-Bold.otf");
+  }
+
+  @font-face {
+    font-family: 'pretendard-black';
+    font-weight: 1000;
+    src: url("./font/Pretendard-Black.otf");
+  }

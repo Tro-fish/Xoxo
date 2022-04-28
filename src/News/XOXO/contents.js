@@ -120,7 +120,7 @@ export default function Contents() {
             <IndexBox>
                 <A href="./xoxoNews01.js" rel="noopener noreferrer"><BText>전체</BText></A>
                 <A href="./xoxoNews02.js" rel="noopener noreferrer"><BText>보도이슈</BText></A>
-                <A href="./xoxoNews03.js" rel="noopener noreferrer"><BText style={{color:"black"}}>쏘쏘이슈</BText></A>
+                <A href="./xoxoNews03.js" rel="noopener noreferrer"><BText style={{color:"black"}}>라이푸이슈</BText></A>
             </IndexBox>
 
             <NewsPage/>

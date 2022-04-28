@@ -114,13 +114,13 @@ export default function Contents() {
         <Container>
             <TextBox >
                 <Text1 >02.</Text1>
-                <Title style={{ marginTop: "10vh" }}>쏘쏘 뉴스</Title>
+                <Title style={{ marginTop: "10vh" }}>라이푸 뉴스</Title>
             </TextBox>
 
             <IndexBox>
                 <A href="./xoxoNews01.js" rel="noopener noreferrer"><BText style={{color:"black"}}>전체</BText></A>
                 <A href="./xoxoNews02.js" rel="noopener noreferrer"><BText>보도이슈</BText></A>
-                <A href="./xoxoNews03.js" rel="noopener noreferrer"><BText>쏘쏘이슈</BText></A>
+                <A href="./xoxoNews03.js" rel="noopener noreferrer"><BText>라이푸이슈</BText></A>
             </IndexBox>
 
             <NewsPage/>

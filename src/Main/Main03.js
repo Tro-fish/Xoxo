@@ -95,6 +95,7 @@ const Btn = styled.button`
     background-color: ${colors.mint};
     border: 0px;
     margin: 5vh 0vw;
+    cursor: pointer;
 `;
 
 const A = styled.a`

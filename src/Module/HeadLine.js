@@ -23,6 +23,7 @@ const LogoBtn = styled.button`
     border: 0px;
     background-color: white;
     margin-left: 10vw;
+    cursor: pointer;
 `;
 
 const Box1 = styled.div`

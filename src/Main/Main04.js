@@ -40,6 +40,7 @@ const Btn = styled.button`
     margin: 5vh;
     margin-left: 0px;
     box-shadow: "0px 3px 5px #B2B2B2";
+    cursor: pointer;
 `;
 
 const Image = styled.img`

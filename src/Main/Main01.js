@@ -51,7 +51,7 @@ const Text1 = styled.text`
 `;
 
 const BText = styled.text`
-    font-family: "pretendard";
+    font-family: "pretendard-black";
     font-size: 5vh;
     font-weight: 900;
     margin-bottom: 5vh;

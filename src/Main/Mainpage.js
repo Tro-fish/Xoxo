@@ -33,7 +33,7 @@ const Text1 = styled.text`
 `;
 
 const Text2 = styled.text`
-    font-family: "Pretendard";
+    font-family: "pretendard";
     color: white;
     font-weight: 800;
     font-size: 5vh;
@@ -65,6 +65,7 @@ const Btn = styled.button`
     margin: 10px;
     margin-left: 0px;
     box-shadow: "0px 3px 5px #B2B2B2";
+    cursor: pointer;
 `;
 
 const Image = styled.img`

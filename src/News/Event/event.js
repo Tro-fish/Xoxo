@@ -99,7 +99,7 @@ export default function Event() {
         <Container>
             <TextBox >
                 <Text1 >01.</Text1>
-                <BText style={{ marginTop: "10vh" }}>쏘쏘 이벤트</BText>
+                <BText style={{ marginTop: "10vh" }}>라이푸 이벤트</BText>
             </TextBox>
 
             <EventPage/>

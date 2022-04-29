@@ -21,7 +21,7 @@ const IndexBox = styled.div`
     width: 60vw;
     margin-top: 15vh;
     padding: 15px 0px;
-    border-bottom: 2px solid ${colors.mint};
+    border-bottom: 0.15vw solid ${colors.mint};
 `;
 
 const BText = styled.text`
@@ -43,6 +43,7 @@ const BtnBox = styled.div`
 const Btn = styled.button`
     border: 0px;
     background-color: white;
+    cursor: pointer;
 `;
 
 const BtnText = styled.text`

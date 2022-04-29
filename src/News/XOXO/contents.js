@@ -47,6 +47,7 @@ const BtnBox = styled.div`
 const Btn = styled.button`
     border: 0px;
     background-color: white;
+    cursor: pointer;
 `;
 
 const BtnText = styled.text`
@@ -61,7 +62,7 @@ const IndexBox = styled.div`
     width: 60vw;
     margin-top: 5vh;
     padding: 15px 0px;
-    border-bottom: 2px solid ${colors.mint};
+    border-bottom: 0.15vw solid ${colors.mint};
 `;
 
 const BText = styled.text`
@@ -115,7 +116,7 @@ export default function Contents() {
         <Container>
             <TextBox >
                 <Text1 >02.</Text1>
-                <Title style={{ marginTop: "10vh" }}>라이푸 뉴스</Title>
+                <Title style={{ marginTop: "5vw" }}>라이푸 뉴스</Title>
             </TextBox>
 
             <IndexBox>

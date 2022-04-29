@@ -20,13 +20,13 @@ const TextBox = styled.div`
     justify-content: center;
     align-items: flex-start;
     margin-left: 20vw;
-    margin-top: 15vh;
+    margin-top: 7vw;
 `;
 
 const BtnBox = styled.div`
     display: flex;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vw;
+    margin-bottom: 7vw;
 `;
 
 const Btn = styled.button`
@@ -37,7 +37,7 @@ const Btn = styled.button`
     justify-content: center;
     align-items: center;
     padding: 0vw 3vw;
-    margin: 5vh;
+    margin: 2vw;
     margin-left: 0px;
     box-shadow: "0px 3px 5px #B2B2B2";
     cursor: pointer;
@@ -57,7 +57,7 @@ const BText = styled.text`
     font-family: "pretendard";
     font-size: ${colors.title};
     font-weight: 900;
-    margin-top: 10vh;
+    margin-top: 5vw;
 `;
 
 export default function Main04() {

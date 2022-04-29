@@ -5,8 +5,6 @@ import Info from "../Module/Info";
 import Introduction01 from "../Introduction/Introduction01";
 import Introduction02 from "../Introduction/Introduction02";
 
-import { Route, Routes } from "react-router-dom";
-
 export default function coIntro() {
      return(
         <div>

@@ -61,7 +61,7 @@ const Btn = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0vh 3vh;
+    padding: 0vh 2vw;
     margin: 10px;
     margin-left: 0px;
     box-shadow: "0px 3px 5px #B2B2B2";

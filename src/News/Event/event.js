@@ -42,13 +42,14 @@ const BtnBox = styled.div`
     display: flex;
     width: 15vw;
     justify-content: space-between;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 `;
 
 const Btn = styled.button`
     border: 0px;
     background-color: white;
+    cursor: pointer;
 `;
 
 const BtnText = styled.text`
@@ -100,7 +101,7 @@ export default function Event() {
         <Container>
             <TextBox >
                 <Text1 >01.</Text1>
-                <BText style={{ marginTop: "10vh" }}>라이푸 이벤트</BText>
+                <BText style={{ marginTop: "5vw" }}>라이푸 이벤트</BText>
             </TextBox>
 
             <EventPage/>

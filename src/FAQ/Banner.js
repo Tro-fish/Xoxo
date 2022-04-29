@@ -7,7 +7,7 @@ const Container = styled.div`
     background-image: url(${backimg});
     background-size: cover;
     display: flex;
-    margin-top: 2vw;
+    margin-top: 4vw;
     width: 100%;
     align-items: center;
 `;
@@ -26,7 +26,7 @@ const Text = styled.text`
     color: black;
     font-weight: 900;
     font-size: ${colors.title};
-    margin: 5px 0px;
+    margin: 2vw 0px;
 `;
 
 export default function Mainpage() {

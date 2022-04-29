@@ -63,10 +63,6 @@ const Text4 = styled.text`
 `;
 
 
-
-
-
-
 export default function QnA01() {
     
     return (

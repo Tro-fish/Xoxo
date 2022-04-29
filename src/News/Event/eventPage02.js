@@ -40,11 +40,11 @@ export default function EventPage01() {
         <ContentBox>
             <Box>
                 <Image style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw" }} />
-                <Image style={{ backgroundImage: `url(${backimg01})`, border:`2px solid ${colors.gray}` }} />
+                <Image style={{ backgroundImage: `url(${backimg01})`, border:`0.15vw solid ${colors.gray}` }} />
             </Box>
             <Box>
                 <Image style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw"}} />
-                <Image style={{ backgroundImage: `url(${backimg01})`, border:`2px solid ${colors.gray}` }} />
+                <Image style={{ backgroundImage: `url(${backimg01})`, border:`0.15vw solid ${colors.gray}` }} />
             </Box>
         </ContentBox>
     );

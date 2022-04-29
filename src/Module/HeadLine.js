@@ -10,9 +10,8 @@ const Container = styled.div`
     background-color: white;
     width: 100%;
     padding: 5px 0px;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid ${colors.gray};
+    border-bottom: 0.15vw solid ${colors.gray};
 `;
 
 const Logo = styled.img`
@@ -24,14 +23,15 @@ const LogoBtn = styled.button`
     background-color: white;
     margin-left: 10vw;
     cursor: pointer;
+    margin-right: 20vw;
 `;
 
 const Box1 = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 100px;
-    width: 45vw;
+    margin-right: 3vw;
+    width: 50vw;
 `;
 
 const Text = styled.text`

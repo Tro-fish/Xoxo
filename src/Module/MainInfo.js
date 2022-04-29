@@ -59,7 +59,7 @@ const Text3 = styled.text`
 const Bar = styled.text`
     font-family: "pretendard";
     color: ${colors.darkGray};
-    font-size: 11px;
+    font-size: 0.5vw;
     margin: 0px 10px;
 `;
 

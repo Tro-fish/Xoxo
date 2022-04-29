@@ -50,16 +50,16 @@ export default function HeadLine() {
     
     return (
         <Container>
-            <A href="./Mainpage.js" rel="noopener noreferrer">
+            <A href="./Mainpage" rel="noopener noreferrer">
                 <LogoBtn>
                     <Logo src={logo}/>
                 </LogoBtn>
             </A>
             <Box1>
-                <A href="./coIntro.js" rel="noopener noreferrer"><Text>회사소개</Text></A>
-                <A href="./mainpage.js" rel="noopener noreferrer"><Text>앱</Text></A>
-                <A href="./xoxoNews01.js" rel="noopener noreferrer"><Text>라이푸뉴스</Text></A>
-                <A href="./faq01.js" rel="noopener noreferrer"><Text>FAQ</Text></A>
+                <A href="./coIntro" rel="noopener noreferrer"><Text>회사소개</Text></A>
+                <A href="./mainpage" rel="noopener noreferrer"><Text>앱</Text></A>
+                <A href="./xoxoNews01" rel="noopener noreferrer"><Text>라이푸뉴스</Text></A>
+                <A href="./faq01" rel="noopener noreferrer"><Text>FAQ</Text></A>
             </Box1>
         </Container>
     );

@@ -150,7 +150,7 @@ export default function Main02() {
                     </ContentBox>
                 </QnABox2>
                 <BtnBox>
-                    <A href="./faq01.js" rel="noopener noreferrer"><Btn><Text5>더보기</Text5></Btn></A>
+                    <A href="./faq01" rel="noopener noreferrer"><Btn><Text5>더보기</Text5></Btn></A>
                 </BtnBox>
             </TextBox>
             

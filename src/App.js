@@ -10,6 +10,7 @@ import FAQ01 from "./Pages/faq01";
 import FAQ02 from "./Pages/faq02";
 import FAQ03 from "./Pages/faq03";
 import FAQ04 from "./Pages/faq04";
+import Events from "./Pages/events";
 
 
 
@@ -18,16 +19,17 @@ function App() {
     <div>
       <Routes>
         <Route path='' element={<Mainpage></Mainpage>} />
-        <Route path='/mainpage.js' element={<Mainpage></Mainpage>} />
-        <Route path='/info.js' element={<Info></Info>} />
-        <Route path='/coIntro.js' element={<CoIntro></CoIntro>} />
-        <Route path='/xoxoNews01.js' element={<XoxoNews01></XoxoNews01>} />
-        <Route path='/xoxoNews02.js' element={<XoxoNews02></XoxoNews02>} />
-        <Route path='/xoxoNews03.js' element={<XoxoNews03></XoxoNews03>} />
-        <Route path='/faq01.js' element={<FAQ01></FAQ01>} />
-        <Route path='/faq02.js' element={<FAQ02></FAQ02>} />
-        <Route path='/faq03.js' element={<FAQ03></FAQ03>} />
-        <Route path='/faq04.js' element={<FAQ04></FAQ04>} />
+        <Route path='/mainpage' element={<Mainpage></Mainpage>} />
+        <Route path='/info' element={<Info></Info>} />
+        <Route path='/coIntro' element={<CoIntro></CoIntro>} />
+        <Route path='/xoxoNews01' element={<XoxoNews01></XoxoNews01>} />
+        <Route path='/xoxoNews02' element={<XoxoNews02></XoxoNews02>} />
+        <Route path='/xoxoNews03' element={<XoxoNews03></XoxoNews03>} />
+        <Route path='/faq01' element={<FAQ01></FAQ01>} />
+        <Route path='/faq02' element={<FAQ02></FAQ02>} />
+        <Route path='/faq03' element={<FAQ03></FAQ03>} />
+        <Route path='/faq04' element={<FAQ04></FAQ04>} />
+        <Route path='/events' element={<Events></Events>} />
       </Routes>
     </div>
   );

@@ -20,13 +20,15 @@ const Box = styled.div`
     margin-top: 8vh;
 `;
 
-const Image = styled.div`
-    background-size: cover;
+const Image = styled.button`
+    background-size: 35vw;
     background-position: center center;
     display: flex;
     width: 45vw;
     height: 15vw;
     border-radius: 20px;
+    cursor: pointer;
+    border: 0px;
 `;
 
 
@@ -35,11 +37,13 @@ const Image = styled.div`
 
 
 export default function EventPage01() {
-    
+    const onClick = (e) => {
+        window.location.href = '/events';
+    };
     return (
         <ContentBox>
             <Box>
-                <Image style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw" }} />
+                <Image onClick={onClick}style={{ backgroundImage: `url(${backimg})`, marginRight: "5vw" }} />
                 <Image style={{ backgroundImage: `url(${backimg01})`, border:`0.15vw solid ${colors.gray}` }} />
             </Box>
             <Box>

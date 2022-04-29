@@ -108,10 +108,10 @@ export default function Main02() {
     return (
         <Container>
             <IndexBox>
-                <A href="./faq01.js" rel="noopener noreferrer"><BText >전체</BText></A>
-                <A href="./faq02.js" rel="noopener noreferrer"><BText style={{color:"black"}}>이용제제</BText></A>
-                <A href="./faq03.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
-                <A href="./faq04.js" rel="noopener noreferrer"><BText>기타질문</BText></A>
+                <A href="./faq01" rel="noopener noreferrer"><BText >전체</BText></A>
+                <A href="./faq02" rel="noopener noreferrer"><BText style={{color:"black"}}>이용제제</BText></A>
+                <A href="./faq03" rel="noopener noreferrer"><BText>기타질문</BText></A>
+                <A href="./faq04" rel="noopener noreferrer"><BText>기타질문</BText></A>
             </IndexBox>
             <TextBox>
                 <Text2>라이푸 마켓 문의는 02-2067-3083 으로 부탁드려요!</Text2>

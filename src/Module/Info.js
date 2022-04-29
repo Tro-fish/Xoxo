@@ -72,11 +72,11 @@ export default function Info() {
         <Container>
             <Box>
                 <LinkBox>
-                    <A href="../info.js" rel="noopener noreferrer"><Text1>개인정보 수집 및 이용 동의</Text1></A>
-                    <A href="../info.js" rel="noopener noreferrer"><Text1>개인정보처리방침</Text1></A>
-                    <A href="../info.js" rel="noopener noreferrer"><Text1>서비스 이용약관</Text1></A>
-                    <A href="../info.js" rel="noopener noreferrer"><Text1>위치기반서비스 이용약관</Text1></A>
-                    <A href="../info.js" rel="noopener noreferrer"><Text1>공지사항</Text1></A>
+                    <A href="../info" rel="noopener noreferrer"><Text1>개인정보 수집 및 이용 동의</Text1></A>
+                    <A href="../info" rel="noopener noreferrer"><Text1>개인정보처리방침</Text1></A>
+                    <A href="../info" rel="noopener noreferrer"><Text1>서비스 이용약관</Text1></A>
+                    <A href="../info" rel="noopener noreferrer"><Text1>위치기반서비스 이용약관</Text1></A>
+                    <A href="../info" rel="noopener noreferrer"><Text1>공지사항</Text1></A>
                 </LinkBox>
                 <TextBox>
                     <Text3>

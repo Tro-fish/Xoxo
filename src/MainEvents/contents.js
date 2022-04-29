@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 import styled from 'styled-components';
-import { colors } from '../../colors';
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import QnA01 from "./QnA01";
-import QnA02 from "./QnA02";
-import QnA03 from "./QnA03"
+import { colors } from '../colors';
+import { FiChevronLeft, FiChevronRight, FiHeart, } from "react-icons/fi";
+import { IoShareOutline } from "react-icons/io5";
+import Event01 from "./event01";
+import Event02 from "./event02";
+import Event03 from "./event03"
 
 
 const Container = styled.div`
@@ -16,28 +17,12 @@ const Container = styled.div`
     align-items: center;
 `;
 
-const IndexBox = styled.div`
-    display: flex;
-    width: 60vw;
-    margin-top: 15vh;
-    padding: 15px 0px;
-    border-bottom: 0.15vw solid ${colors.mint};
-`;
-
-const BText = styled.text`
-    font-family: "pretendard";
-    font-size: ${colors.title};
-    font-weight: 900;
-    color: ${colors.darkGray};
-    margin-right: 2vw;
-`;
-
 const BtnBox = styled.div`
     display: flex;
     width: 20vw;
     justify-content: space-between;
-    margin-top: 10vh;
-    margin-bottom: 40vh;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 `;
 
 const Btn = styled.button`
@@ -53,23 +38,6 @@ const BtnText = styled.text`
     color: ${colors.darkGray};
 `;
 
-const Text2 = styled.text`
-    font-family: "pretendard";
-    color: ${colors.gray};
-    font-size: ${colors.content};
-    margin-right: 1vw;
-    margin-top: 1vh;
-`;
-const TextBox = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    margin-top: 3vh;
-`;
-
-const A = styled.a`
-    text-decoration: none;
-`;
 
 export default function Main02() {
     const [Page, setPage] = useState(1)
@@ -95,28 +63,19 @@ export default function Main02() {
         setPage(3);
     }
     
-    const QnA = () => {
+    const Events = () => {
         if (Page === 1) {
-            return <QnA01/>
+            return <Event01/>
         } else if(Page === 2){
-            return <QnA02/>
+            return <Event02/>
         } else if (Page === 3) {
-            return <QnA03/>
+            return <Event03/>
         }
     }
 
     return (
         <Container>
-            <IndexBox>
-                <A href="./faq01" rel="noopener noreferrer"><BText >전체</BText></A>
-                <A href="./faq02" rel="noopener noreferrer"><BText>이용제제</BText></A>
-                <A href="./faq03" rel="noopener noreferrer"><BText style={{color:"black"}}>기타질문</BText></A>
-                <A href="./faq04" rel="noopener noreferrer"><BText>기타질문</BText></A>
-            </IndexBox>
-            <TextBox>
-                <Text2>라이푸 마켓 문의는 02-2067-3083 으로 부탁드려요!</Text2>
-            </TextBox>
-            <QnA />
+            <Events/>
 
             <BtnBox>
                 <Btn onClick={onDecrease}>

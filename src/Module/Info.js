@@ -2,6 +2,10 @@ import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
 
+const media = {
+    phone : '@media(max-width: 500px)'
+};
+
 const Container = styled.div`
     background-color: ${colors.gray};
     display: flex;
@@ -22,6 +26,9 @@ const LinkBox = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 10vh;
+    ${media.phone}{
+        flex-direction: column;
+    }
 `;
 
 const TextBox = styled.div`
@@ -47,6 +54,9 @@ const Text2 = styled.text`
     color: ${colors.darkGray};
     font-size: 0.5vw;
     font-weight: 700;
+    ${media.phone}{
+        margin: 5px 0px;
+    }
 `;
 
 const Text3 = styled.text`
@@ -54,6 +64,11 @@ const Text3 = styled.text`
     color: ${colors.darkGray};
     font-size: 0.5vw;
     margin: 10px 0px;
+    ${media.phone}{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0px;
+    }
 `;
 
 const Bar = styled.text`
@@ -61,6 +76,9 @@ const Bar = styled.text`
     color: ${colors.darkGray};
     font-size: 11px;
     margin: 0px 10px;
+    ${media.phone}{
+        display: none;
+    }
 `;
 
 const A = styled.a`

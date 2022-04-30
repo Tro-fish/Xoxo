@@ -1,12 +1,14 @@
 import React, {useState} from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
-import { FiChevronLeft, FiChevronRight, FiHeart, } from "react-icons/fi";
-import { IoShareOutline } from "react-icons/io5";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Event01 from "./event01";
 import Event02 from "./event02";
 import Event03 from "./event03"
 
+const media = {
+    phone : '@media(max-width: 500px)'
+};
 
 const Container = styled.div`
     background-color: white;
@@ -23,11 +25,36 @@ const BtnBox = styled.div`
     justify-content: space-between;
     margin-top: 5vw;
     margin-bottom: 10vw;
+    ${media.phone}{
+        margin-top: 50px;
+        width: 200px;
+        margin-bottom: 100px;
+    }
+
+    .left{
+        font-size:${colors.semititle};
+        font-weight: 700;
+        color: ${ colors.darkGray };
+        ${media.phone}{
+            font-size: 20px;
+        }
+    }
+
+    .right{
+        font-size:${colors.semititle};
+        font-weight: 700;
+        color: ${ colors.darkGray };
+        ${media.phone}{
+            font-size: 20px;
+        }
+    }
 `;
 
 const Btn = styled.button`
+    display: flex;
     border: 0px;
     background-color: white;
+    align-items: center;
     cursor: pointer;
 `;
 
@@ -36,8 +63,10 @@ const BtnText = styled.text`
     font-size: ${colors.semititle};
     font-weight: 700;
     color: ${colors.darkGray};
+    ${media.phone}{
+        font-size: 20px;
+    }
 `;
-
 
 export default function Main02() {
     const [Page, setPage] = useState(1)
@@ -79,25 +108,13 @@ export default function Main02() {
 
             <BtnBox>
                 <Btn onClick={onDecrease}>
-                    <FiChevronLeft
-                        style={{
-                            fontSize: `${colors.semititle}`,
-                            fontWeight: "700",
-                            marginTop: "1vh",
-                            color: `${colors.darkGray}`
-                        }} />
+                    <FiChevronLeft className="left" />
                 </Btn>
                 <Btn onClick={onOne}><BtnText style={{color: Page===1 ? "black":`${colors.darkGray}`}}>1</BtnText></Btn>
                 <Btn onClick={onTwo}><BtnText style={{color: Page===2 ? "black":`${colors.darkGray}`}}>2</BtnText></Btn>
                 <Btn onClick={onThree}><BtnText style={{color: Page===3 ? "black":`${colors.darkGray}`}}>3</BtnText></Btn>
                 <Btn onClick={onIncrease}>
-                    <FiChevronRight
-                        style={{
-                            fontSize: `${colors.semititle}`,
-                            fontWeight: "700",
-                            marginTop: "1vh",
-                            color: `${colors.darkGray}`
-                        }} />
+                    <FiChevronRight className="right"/>
                 </Btn>
             </BtnBox>
         </Container>

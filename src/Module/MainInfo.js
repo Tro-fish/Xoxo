@@ -2,6 +2,10 @@ import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
 
+const media = {
+    phone : '@media(max-width: 1000px)'
+};
+
 const Container = styled.div`
     background-color: white;
     display: flex;

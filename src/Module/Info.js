@@ -36,37 +36,45 @@ const TextBox = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10vh;
-    margin-bottom: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    ${media.phone}{
+        margin-top: 30px;
+    }
 `;
 
 
 const Text1 = styled.text`
     font-family: "pretendard";
     color: ${colors.darkGray};
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     font-weight: 700;
     margin-right: 5vw;
+    ${media.phone}{
+        font-size: 13px;
+    }
 `;
 
 const Text2 = styled.text`
     font-family: "pretendard";
     color: ${colors.darkGray};
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     font-weight: 700;
     ${media.phone}{
         margin: 5px 0px;
+        font-size: 13px;
     }
 `;
 
 const Text3 = styled.text`
     font-family: "pretendard";
     color: ${colors.darkGray};
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     margin: 10px 0px;
     ${media.phone}{
         display: flex;
         flex-direction: column;
+        font-size: 13px;
         margin: 5px 0px;
     }
 `;
@@ -83,6 +91,9 @@ const Bar = styled.text`
 
 const A = styled.a`
     text-decoration: none;
+    ${media.phone}{
+        margin-bottom: 5px;
+    }
 `;
 
 export default function Info() {
@@ -98,7 +109,7 @@ export default function Info() {
                 </LinkBox>
                 <TextBox>
                     <Text3>
-                        <Text2>쏘쏘마켓 </Text2>Xoxo
+                        <Text2>주식회사 쏘쏘마켓 </Text2>
                         <Bar>|</Bar>
                         <Text2>대표</Text2> 주희찬
                         <Bar>|</Bar>
@@ -111,11 +122,9 @@ export default function Info() {
                     <Text3>
                         <Text2>사업자등록번호</Text2> 659-86-02648
                         <Bar>|</Bar>
-                        <Text2>통신판매업</Text2> 00000000000000
+                        <Text2>통신판매업</Text2> 제 2022-서울금천-2083 호
                     </Text3>
-                    <Text3>
-                        서울특별시 금천구 가산디지털단지 1로 142 가산더스카이벨리 1차 414호
-                    </Text3>
+                    <Text2>서울특별시 금천구 가산디지털단지 1로 142 가산더스카이벨리 1차 414호</Text2>
                 </TextBox>
             </Box>
         </Container>

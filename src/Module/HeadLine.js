@@ -18,10 +18,18 @@ const Container = styled.div`
     width: 100%;
     padding: 5px 0px;
     align-items: center;
-    border-bottom: 0.15vw solid ${colors.gray};
+    justify-content: space-between;
+    ${media.phone}{
+        border-bottom: 1px solid ${colors.darkGray};
+    }
+    ${media.desktop}{
+        border-bottom: 2px solid ${colors.darkGray};
+    }
+    
     .bars{
         ${media.phone}{
             cursor: pointer;
+            margin-right: 5vw;
         }
         ${media.desktop}{
             display: none;
@@ -44,16 +52,15 @@ const LogoBtn = styled.button`
     margin-right: 20vw;
     ${media.phone}{
         margin-left: 3vw;
-        margin-right: 60vw;
     }
 `;
 
 const Box1 = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    margin-right: 3vw;
-    width: 50vw;
+    margin-right: 5vw;
+    width: 40vw;
     ${media.phone}{
         display: none;
     }
@@ -78,14 +85,15 @@ const A = styled.a`
     text-decoration: none;
     margin: 0px 10px;
     ${media.phone}{
-        margin-top: 3vw;
+        margin-top: 6vh;
     }
     ${media.desktop}{
+        margin: 0px 3vw;
     }
 `;
 
 const Black = styled.div`
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -123,10 +131,10 @@ export default function HeadLine() {
     const Link = () => {
         return (
             <Box1>
-                    <A href="./coIntro" rel="noopener noreferrer"><Text>회사소개</Text></A>
-                    <A href="./mainpage" rel="noopener noreferrer"><Text>앱</Text></A>
-                    <A href="./xoxoNews01" rel="noopener noreferrer"><Text>라이푸뉴스</Text></A>
-                    <A href="./faq01" rel="noopener noreferrer"><Text>FAQ</Text></A>
+                <A href="./coIntro" rel="noopener noreferrer" style={{marginTop:0}}><Text>회사소개</Text></A>
+                <A href="./mainpage" rel="noopener noreferrer"><Text>앱</Text></A>
+                <A href="./xoxoNews01" rel="noopener noreferrer"><Text>라이푸뉴스</Text></A>
+                <A href="./faq01" rel="noopener noreferrer"><Text>FAQ</Text></A>
             </Box1>
         )
     }
@@ -138,7 +146,7 @@ export default function HeadLine() {
                 <Link/>
                 {Display
                 ?
-                <FaBars className="bars" onClick={onClick}></FaBars>
+                <FaBars size="24" className="bars" onClick={onClick}></FaBars>
                 :
                 <PhoneLink/>
                 }

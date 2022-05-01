@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import { colors } from '../colors';
 import backimg from "../image/event01.jpg";
 import { IoShareOutline } from "react-icons/io5";
-import { FiHeart } from "react-icons/fi";
 
 const media = {
-    phone : '@media(max-width: 1000px)'
+    desktop: '@media(min-width: 501px)',
+    phone : '@media(max-width: 500px)'
 };
 
 const Container = styled.div`
@@ -14,32 +14,40 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60vw;
+    width: 75vw;
     margin-top: 8vh;
 
     ${media.phone}{
-        width: 85vw;
+        width: 90vw;
+        margin-top: 13vh;
     }
 `;
 
 const TextBox = styled.div`
     display: flex;
-    width: 55vw;
-    flex-direction: column;
+    width: 75vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 4vw;
 
     ${media.phone}{
+        flex-direction: column;
         width: 95%;
+        align-items: flex-start;
+        margin-top: 10px;
     }
 `;
 
 const Text1 = styled.text`
-    font-family: "pretendard";
-    font-size: ${colors.content};
-
+    font-family: "jalnan";
+    font-size: ${colors.title};
+    font-weight: 900;
+    margin-right: 30px;
     ${media.phone}{
-        font-size: 10px;
+        font-size: 16px;
+        margin-right: 9px;
     }
 `;
 
@@ -48,30 +56,32 @@ const Text2 = styled.text`
     font-size: 1.6vw;
     font-weight: 700;
     color: black;
-    margin: 0vw 2vw;
+    margin-left: 1vw;
 
     ${media.phone}{
-        font-size: 17px;
-        margin-left: 20px;
+        font-size: 13px;
+        margin-left: 10px;
     }
     
 `;
 
 const BText = styled.text`
-    font-family: "pretendard-black";
+    ${media.desktop}{font-family: "pretendard";
     font-size: ${colors.title};
-    font-weight: 900;
-    margin-top: 2vw;
+    font-weight: 900;}
 
     ${media.phone}{
-        font-family: "pretendard-black";
-        font-size: 25px;
+        font-family: "pretendard";
+        font-size: 16px;
         font-weight: 900;
     }
 `;
 
 const EventImg = styled.img`
     width: 100%;
+    ${media.phone}{
+        
+    }
 `;
 
 const Box = styled.div`
@@ -79,10 +89,11 @@ const Box = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 2vw;
+    margin-bottom: 4vw;
     ${media.phone}{
         flex-direction: column;
         align-items: flex-end;
+        margin-bottom: 20px;
     }
 `;
 
@@ -92,9 +103,15 @@ const Btn = styled.button`
     background-color: white;
     display: flex;
     align-items: center;
-
     ${media.phone}{
         margin-top: 10px;
+        margin-left: -10px;
+    }
+    .share{
+        font-size: ${colors.semititle};
+        ${media.phone}{
+            font-size: 20px;
+        }
     }
 `;
 
@@ -103,29 +120,13 @@ export default function QnA01() {
     return (
         <Container>
             <TextBox>
-                <Text1>01.</Text1>
-                <BText>친구 초대 이벤트</BText>
-            </TextBox>
-            <EventImg src={backimg}></EventImg>
-            <Box>
+                <BText><Text1>01.</Text1><BText style={{color:"#FF0000"}}>[OPEN EVENT]</BText> 아메리카노가 무료라고 ?! </BText>
                 <Btn>
-                    <FiHeart
-                        style={{
-                            color: `${colors.mint}`,
-                            fontSize: media.phone? "20px":`${colors.semititle}`,
-                        }}
-                    />
-                    <Text2 style={{marginRight: media.phone? "3vw":"0vw"}}>좋아요</Text2>
-                </Btn>
-                <Btn>
-                    <IoShareOutline
-                        style={{
-                            fontSize: media.phone? "20px":`${colors.semititle}`,
-                        }}
-                    />
+                    <IoShareOutline className="share"/>
                     <Text2 style={{marginRight: "0vw"}}>공유하기</Text2>
                 </Btn>
-            </Box>
+            </TextBox>
+            <EventImg src={backimg}></EventImg>
         </Container>
     );
 }

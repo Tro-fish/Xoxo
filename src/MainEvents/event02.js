@@ -2,6 +2,10 @@ import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
 
+const media = {
+    desktop: '@media(min-width: 501px)',
+    phone : '@media(max-width: 500px)'
+};
 
 const TextBox = styled.div`
     display: flex;

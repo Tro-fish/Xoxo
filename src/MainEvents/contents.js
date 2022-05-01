@@ -7,6 +7,7 @@ import Event02 from "./event02";
 import Event03 from "./event03"
 
 const media = {
+    desktop: '@media(min-width: 501px)',
     phone : '@media(max-width: 500px)'
 };
 

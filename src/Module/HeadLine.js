@@ -38,7 +38,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.img`
-    width: 10vw;
+    width: 15vw;
     ${media.phone}{
         width: 100px;
     }

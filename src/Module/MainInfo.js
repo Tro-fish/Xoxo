@@ -113,6 +113,9 @@ export default function Info() {
             <Text1>위치기반서비스 이용약관</Text1>
           </A>
           <A href="../info" rel="noopener noreferrer">
+            <Text1>라이푸마켓 법적 고지</Text1>
+          </A>
+          <A href="../info" rel="noopener noreferrer">
             <Text1>공지사항</Text1>
           </A>
         </LinkBox>

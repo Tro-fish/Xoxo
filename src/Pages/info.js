@@ -19,6 +19,7 @@ import backimg5_2 from "../image/Contraction/위치기반서비스 이용약관/
 import backimg5_3 from "../image/Contraction/위치기반서비스 이용약관/위치기반서비스 이용약관_0003.png";
 import backimg5_4 from "../image/Contraction/위치기반서비스 이용약관/위치기반서비스 이용약관_0004.png";
 import backimg5_5 from "../image/Contraction/위치기반서비스 이용약관/위치기반서비스 이용약관_0005.png";
+
 const media = {
   desktop: "@media(min-width: 501px)",
   phone: "@media(max-width: 500px)",
@@ -27,14 +28,12 @@ const media = {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-top: 8vh;
 
   ${media.phone} {
-    width: 90vw;
-    margin-top: 13vh;
+    width: 100%;
   }
 `;
 
@@ -42,7 +41,6 @@ const PhotoImg = styled.img`
   width: 60%;
   ${media.phone} {
     width: 90vw;
-    margin-top: 13vh;
   }
 `;
 

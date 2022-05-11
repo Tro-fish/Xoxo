@@ -19,7 +19,7 @@ const TextBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 23vh;
+  margin-top: 20vh;
   margin-bottom: 45vh;
   margin-left: 13vw;
 `;
@@ -50,7 +50,7 @@ const Text3 = styled.text`
 
 const BtnBox = styled.div`
   display: flex;
-  margin-top: 100px;
+  margin-top: 40px;
 `;
 
 const Btn = styled.button`
@@ -61,9 +61,8 @@ const Btn = styled.button`
   justify-content: center;
   align-items: center;
   padding: 0vh 2vw;
-  margin: 10px;
+  margin: 5px;
   margin-left: 0px;
-  box-shadow: "0px 3px 5px #B2B2B2";
   cursor: pointer;
 `;
 

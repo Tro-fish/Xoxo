@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { colors } from "../colors";
-import backimg from "../image/AppDown.png";
-import Google from "../image/Google-Play.png";
-import Apple from "../image/Apple_Store.png";
+import backimg from "../image/appdownload.png";
+import Google from "../image/AppIcon/googleplayLOGO.png";
+import Apple from "../image/AppIcon/appstoreLOGO.png";
 
 const Container = styled.div`
   background-image: url(${backimg});
@@ -25,8 +25,8 @@ const TextBox = styled.div`
 
 const BtnBox = styled.div`
   display: flex;
-  margin-top: 5vw;
-  margin-bottom: 2vw;
+  margin-top: 1.5vw;
+  margin-bottom: 5.5vw;
 `;
 
 const Btn = styled.button`
@@ -36,7 +36,7 @@ const Btn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0vw 3vw;
+  padding: 1vh 2vw;
   margin: 2vw;
   margin-left: 0px;
   box-shadow: "0px 3px 5px #B2B2B2";
@@ -50,13 +50,14 @@ const Image = styled.img`
 const Text1 = styled.text`
   font-family: "pretendard";
   font-size: ${colors.content};
-  color: black;
+  color: white;
 `;
 
 const BText = styled.text`
   font-family: "pretendard";
   font-size: ${colors.title};
   font-weight: 900;
+  color: white;
   margin-top: 5vw;
 `;
 

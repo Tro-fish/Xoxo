@@ -9,7 +9,7 @@ const TextBox = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     width: 60vw;
-    margin-top: 8vh;
+    margin-top: 4vh;
 `;
 
 const ContentBox = styled.div`

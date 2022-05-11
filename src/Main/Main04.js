@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { colors } from "../colors";
-import backimg from "../image/1.jpg";
+import backimg from "../image/AppDown.png";
 import Google from "../image/Google-Play.png";
 import Apple from "../image/Apple_Store.png";
 
 const Container = styled.div`
   background-image: url(${backimg});
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   margin-top: 6vh;
   width: 100%;
@@ -20,13 +20,13 @@ const TextBox = styled.div`
   justify-content: center;
   align-items: flex-start;
   margin-left: 20vw;
-  margin-top: 7vw;
+  margin-top: 3vw;
 `;
 
 const BtnBox = styled.div`
   display: flex;
   margin-top: 5vw;
-  margin-bottom: 7vw;
+  margin-bottom: 2vw;
 `;
 
 const Btn = styled.button`

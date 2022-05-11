@@ -20,14 +20,14 @@ const IndexBox = styled.div`
     display: flex;
     width: 60vw;
     margin-top: 15vh;
-    padding: 15px 0px;
+    padding-bottom: 3vh;
     border-bottom: 0.15vw solid ${colors.mint};
 `;
 
 const BText = styled.text`
     font-family: "pretendard";
-    font-size: ${colors.title};
-    font-weight: 900;
+    font-size: ${colors.semititle};
+    font-weight: 600;
     color: ${colors.darkGray};
     margin-right: 2vw;
 `;
@@ -110,7 +110,7 @@ export default function Main02() {
             <IndexBox>
                 <A href="./faq01" rel="noopener noreferrer"><BText >전체</BText></A>
                 <A href="./faq02" rel="noopener noreferrer"><BText>이용제제</BText></A>
-                <A href="./faq03" rel="noopener noreferrer"><BText style={{color:"black"}}>기타질문</BText></A>
+                <A href="./faq03" rel="noopener noreferrer"><BText style={{color:"black", fontWeight: 800}}>기타질문</BText></A>
                 <A href="./faq04" rel="noopener noreferrer"><BText>기타질문</BText></A>
             </IndexBox>
             <TextBox>

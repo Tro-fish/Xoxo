@@ -1,13 +1,13 @@
 import React from "react";
 import styled from 'styled-components';
-import backimg from "../image/3.jpg";
+import backimg from "../image/FAQ.png";
 import { colors } from "../colors";
 
 const Container = styled.div`
     background-image: url(${backimg});
-    background-size: cover;
+    background-size: 100%;
     display: flex;
-    margin-top: 4vw;
+    margin-top: 5vw;
     width: 100%;
     align-items: center;
 `;
@@ -17,7 +17,7 @@ const TextBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 15vh 0vw;
+    margin: 8vh 0vw;
     margin-left: 20vw;
 `;
 

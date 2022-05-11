@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { colors } from "../colors";
-import backimg from "../image/4.jpg";
+import backimg from "../image/4.png";
 import Google from "../image/Google-Play.png";
 import Apple from "../image/Apple_Store.png";
 
 const Container = styled.div`
   background-image: url(${backimg});
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   margin-top: 5vh;
   width: 100%;
@@ -19,22 +19,23 @@ const TextBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: 45vh 0vw;
+  margin-top: 23vh;
+  margin-bottom: 45vh;
   margin-left: 13vw;
 `;
 
 const Text1 = styled.text`
   font-family: "Pretendard";
   font-size: ${colors.content};
-  font-weight: 600;
-  color: white;
+  font-weight: 500;
+  color: black;
   margin-bottom: 7px;
 `;
 
 const Text2 = styled.text`
   font-family: "pretendard";
-  color: white;
-  font-weight: 800;
+  color: black;
+  font-weight: 500;
   font-size: ${colors.semititle};
   margin: 5px 0px;
 `;
@@ -49,11 +50,11 @@ const Text3 = styled.text`
 
 const BtnBox = styled.div`
   display: flex;
-  margin-top: 30px;
+  margin-top: 100px;
 `;
 
 const Btn = styled.button`
-  background-color: white;
+  background-color: ${colors.lightGray};
   border: 0px;
   border-radius: 80px;
   display: flex;

@@ -68,9 +68,9 @@ const IndexBox = styled.div`
 const BText = styled.text`
     font-family: "pretendard";
     font-size: ${colors.semititle};
-    font-weight: 900;
+    font-weight: 600;
     color: ${colors.darkGray};
-    margin-right: 20px;
+    margin-right: 1.5vw;
 `;
 
 const A = styled.a`
@@ -120,7 +120,7 @@ export default function Contents() {
             </TextBox>
 
             <IndexBox>
-                <A href="./xoxoNews01" rel="noopener noreferrer"><BText style={{color:"black"}}>전체</BText></A>
+                <A href="./xoxoNews01" rel="noopener noreferrer"><BText style={{color:"black", fontWeight:800}}>전체</BText></A>
                 <A href="./xoxoNews02" rel="noopener noreferrer"><BText>보도이슈</BText></A>
                 <A href="./xoxoNews03" rel="noopener noreferrer"><BText>라이푸이슈</BText></A>
             </IndexBox>
@@ -133,7 +133,6 @@ export default function Contents() {
                         style={{
                             fontSize: `${colors.title}`,
                             fontWeight: "700",
-                            marginTop: "1vh",
                             color: `${colors.darkGray}`
                         }} />
                 </Btn>
@@ -145,7 +144,6 @@ export default function Contents() {
                         style={{
                             fontSize: `${colors.title}`,
                             fontWeight: "700",
-                            marginTop: "1vh",
                             color: `${colors.darkGray}`
                         }} />
                 </Btn>

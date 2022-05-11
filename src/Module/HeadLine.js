@@ -71,7 +71,7 @@ const Box1 = styled.div`
 const Text = styled.text`
     font-family:"pretendard";
     color: black;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1vw;
     ${media.phone}{
         color: white;

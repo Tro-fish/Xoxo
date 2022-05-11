@@ -112,7 +112,6 @@ export default function Event() {
                         style={{
                             fontSize: `${colors.title}`,
                             fontWeight: "700",
-                            marginTop: "1vh",
                             color: `${colors.darkGray}`
                         }} />
                 </Btn>
@@ -124,7 +123,6 @@ export default function Event() {
                         style={{
                             fontSize: `${colors.title}`,
                             fontWeight: "700",
-                            marginTop: "1vh",
                             color: `${colors.darkGray}`
                         }} />
                 </Btn>

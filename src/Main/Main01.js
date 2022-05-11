@@ -1,6 +1,9 @@
 import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
+import photo01 from '../image/main01.png';
+import photo02 from '../image/main03.png';
+import photo03 from '../image/main02.png';
 
 const Container = styled.div`
     background-color: white;
@@ -10,11 +13,11 @@ const Container = styled.div`
     align-items: center;
 `;
 
-const GrayBox = styled.div`
-    background-color: gray;
-    width: 30vw;
-    height: 20vw;
-    border-radius: 10px;
+const GrayBox = styled.img`
+    width: 35vw;
+    height: 15vw;
+    border-radius: 30px;
+    border: 5px solid ${colors.lightGray};
 `;
 
 const Box = styled.div`
@@ -27,7 +30,7 @@ const Box = styled.div`
 
 const TextBox = styled.div`
     display: flex;
-    width: 60vw;
+    width: 65vw;
     flex-direction: column;
     margin-top: 30vh;
     margin-bottom: 20vh;
@@ -52,10 +55,10 @@ const Text1 = styled.text`
 `;
 
 const BText = styled.text`
-    font-family: "pretendard-black";
-    font-size: ${colors.title};
+    font-family: "pretendard";
+    font-size: ${colors.semititle};
     font-weight: 900;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 `;
 
 const Text3 = styled.text`
@@ -83,7 +86,7 @@ export default function Main01() {
                     <Text3>이유있는 추천</Text3>
                 </Box>
                 <Box> 
-                    <GrayBox></GrayBox>
+                    <GrayBox src={photo01}/>
                     <ContentBox>
                         <BText>안전하게 거래하는</BText>
                         <Text4>3번의 인증단계를 거친 후 거래사용이 가능합니다.</Text4>
@@ -92,7 +95,7 @@ export default function Main01() {
                     </ContentBox>
                 </Box>
                 <Box>
-                    <GrayBox></GrayBox>
+                    <GrayBox src={photo02}/>
                     <ContentBox>
                         <BText>손쉽게 이용하는</BText>
                         <Text4>하이퍼로컬 반경 설정을 통해 쉽게 지역을 설정하고</Text4>
@@ -100,7 +103,7 @@ export default function Main01() {
                     </ContentBox>
                 </Box>
                 <Box>
-                    <GrayBox></GrayBox>
+                    <GrayBox src={photo03}/>
                     <ContentBox>
                         <BText>값싸게 사용하는</BText>
                         <Text4>타앱 대비 저렴한 수수료로 부담없이 사용 가능합니다.</Text4>

@@ -1,11 +1,11 @@
 import React from "react";
 import styled from 'styled-components';
 import { colors } from '../colors';
-import backimg from "../image/2.jpg";
+import backimg from "../image/회사소개.png";
 
 const Container = styled.div`
     background-image: url(${backimg});
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     margin-top: 6vh;
     width: 100%;
@@ -17,7 +17,7 @@ const TextBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 45vh 0vw;
+    margin: 35vh 0vw;
     margin-left: 20vw;
 `;
 
@@ -25,24 +25,24 @@ const Text1 = styled.text`
     font-family: "pretendard";
     color: white;
     font-weight: 900;
-    font-size: ${colors.title};
+    font-size: ${colors.semititle};
     margin-bottom: 5vh;
 `;
 
 const Text2 = styled.text`
     font-family: "pretendard";
-    font-size: ${colors.semititle};
+    font-size: 1.5vw;
     font-weight: 600;
     color: white;
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
 `;
 
 const Text3 = styled.text`
     font-family: "pretendard";
-    font-size: ${colors.semititle};
+    font-size: 1.5vw;
     font-weight: 800;
     color: white;
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
 `;
 
 export default function Mainpage() {

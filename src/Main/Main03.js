@@ -165,7 +165,7 @@ export default function Main02() {
           <Text3>04.</Text3>
           <ContentBox>
             <Text1>
-              <Text4>Q</Text4>쏘쏘페이 충전 제한 금액은 따로 있나요?
+              <Text4>Q</Text4>라이푸페이 충전 제한 금액은 따로 있나요?
             </Text1>
             <Text3>
               <Text2>A</Text2>아니요. 제한 금액은 없습니다. 많은 충전과 이용

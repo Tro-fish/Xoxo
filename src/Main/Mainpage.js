@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { colors } from "../colors";
 import backimg from "../image/4.png";
-import Google from "../image/Google-Play.png";
-import Apple from "../image/Apple_Store.png";
+import Google from "../image/AppIcon/googleplayLOGO.png";
+import Apple from "../image/AppIcon/appstoreLOGO.png";
 
 const Container = styled.div`
   background-image: url(${backimg});
@@ -60,14 +60,14 @@ const Btn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0vh 2vw;
+  padding: 1vh 2vw;
   margin: 5px;
   margin-left: 0px;
   cursor: pointer;
 `;
 
 const Image = styled.img`
-  width: 5vw;
+  width: 6.5vw;
 `;
 
 export default function Mainpage() {

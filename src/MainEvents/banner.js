@@ -28,7 +28,7 @@ const Container = styled.div`
 
 const Logo = styled.img`
     ${media.phone}{
-        width: 22vw;
+        width: 15vw;
         border-radius: 15px;
         margin-right: 2vw;
     }
@@ -41,7 +41,7 @@ const TextBox = styled.div`
     ${media.phone}{
         display: flex;
         flex-direction: column;
-        margin-right: 2vw;
+        margin-right: 6vw;
     }
     ${media.desktop}{
         display: none;
@@ -50,7 +50,7 @@ const TextBox = styled.div`
 const Text1 = styled.text`
     ${media.phone}{
         font-family: 'jalnan';
-        font-size: 3vw;
+        font-size: 3.5vw;
         color: black;
         font-weight: 400;
     }
@@ -62,7 +62,7 @@ const Text1 = styled.text`
 const Text2 = styled.text`
     ${media.phone}{
         font-family: 'jalnan';
-        font-size: 7vw;
+        font-size: 6vw;
         font-weight: 900;
         color: black;
     }
@@ -103,6 +103,7 @@ const X = styled.button`
         border-radius: 10px;
         cursor: pointer;
         margin-right: 3vw;
+        
     }
     ${media.desktop}{
         display: none;
@@ -126,7 +127,7 @@ export default function HeadLine() {
                 <X onClick={onClick}><BtnText style={{color:"black"}}>x</BtnText></X>
                 <Logo src={logo} />
                 <TextBox>
-                    <Text1>삶을 한 층 더 쉽게</Text1>
+                    <Text1>동네 심부름 앱</Text1>
                     <Text2>라이푸마켓</Text2>
                 </TextBox>
                 <Download onClick={appDown}>

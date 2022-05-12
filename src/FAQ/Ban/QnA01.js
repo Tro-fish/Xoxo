@@ -9,7 +9,7 @@ const TextBox = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     width: 60vw;
-    margin-top: 8vh;
+    margin-top: 4vh;
 `;
 
 const ContentBox = styled.div`
@@ -74,8 +74,8 @@ export default function QnA01() {
                 <QnABox1>
                     <Text3>01.</Text3>
                     <ContentBox>
-                        <Text1><Text4>Q</Text4>라이푸마켓은 어떤 어플리케이션 인가요?</Text1>
-                        <Text3><Text2>A</Text2>네! 실시간 모니터링으로 늘 확인 중에 있습니다! 빠른조치 해드릴께요!</Text3>
+                        <Text1><Text4>Q</Text4>사회 통념상 부당한 글을 봤어요. 제제가 가능한가요?</Text1>
+                        <Text3><Text2>A</Text2>네! 실시간 모니터링으로 늘 확인 중에 있습니다! 빠른 조치 해드릴께요!</Text3>
                     </ContentBox>
                 </QnABox1>
                 <QnABox1>

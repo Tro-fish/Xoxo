@@ -25,7 +25,7 @@ const TextBox = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     width: 60vw;
-    height: 15vh;
+    height: 20vh;
     margin-top: 10vw;
 `;
 

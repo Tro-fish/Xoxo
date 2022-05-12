@@ -12,7 +12,7 @@ export default function xoxoNews01() {
                <HeadLine />
                <Banner />
                <Event />
-               <Content/>
+               {/*<Content/>*/}
                <Info/>
           </div>
     )

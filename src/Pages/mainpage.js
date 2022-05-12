@@ -10,15 +10,6 @@ import MainInfo from "../Module/MainInfo";
 export default function mainpage() {
      return(
         <div>
-         {/*<Mainpage1/>
-          <Mainpage2/>
-          <Mainpage3/>
-          <Mainpage4/>
-          <Mainpage5/>
-          <Mainpage6/>
-          <Mainpage7/>
-          <Mainpage8/>*/}
-        
          <HeadLine />
          <Mainpage />
          <Main01 />

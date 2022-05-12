@@ -11,14 +11,16 @@ import FAQ02 from "./Pages/faq02";
 import FAQ03 from "./Pages/faq03";
 import FAQ04 from "./Pages/faq04";
 import Events from "./Pages/events";
-
+import Order from "./PayPages/Order"
+import OrderConfirm from "./PayPages/OrderConfirm";
+import OrderResult from "./PayPages/OrderResult";
 
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path='' element={<Mainpage></Mainpage>} />
+        <Route path='/' element={<Mainpage></Mainpage>} />
         <Route path='/mainpage' element={<Mainpage></Mainpage>} />
         <Route path='/info' element={<Info></Info>} />
         <Route path='/coIntro' element={<CoIntro></CoIntro>} />
@@ -30,8 +32,11 @@ function App() {
         <Route path='/faq03' element={<FAQ03></FAQ03>} />
         <Route path='/faq04' element={<FAQ04></FAQ04>} />
         <Route path='/events' element={<Events></Events>} />
-      </Routes>
-    </div>
+        <Route path="/order" element={<Order></Order>}/>
+        <Route path="/order_confirm" element={<OrderConfirm></OrderConfirm>}/>
+        <Route path="/order_result" element={<OrderResult></OrderResult>}/>
+      </Routes> 
+    </div>  
   );
 }
 

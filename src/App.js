@@ -14,6 +14,7 @@ import Events from "./Pages/events";
 import Order from "./PayPages/Order"
 import OrderConfirm from "./PayPages/OrderConfirm";
 import OrderResult from "./PayPages/OrderResult";
+import PayResult from "./PayPages/PayResult";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/order" element={<Order></Order>}/>
         <Route path="/order_confirm" element={<OrderConfirm></OrderConfirm>}/>
         <Route path="/order_result" element={<OrderResult></OrderResult>}/>
+        <Route path="/pay_result" element={<PayResult></PayResult>}/>
       </Routes> 
     </div>  
   );

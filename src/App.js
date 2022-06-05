@@ -15,6 +15,7 @@ import Order from "./PayPages/Order"
 import OrderConfirm from "./PayPages/OrderConfirm";
 import OrderResult from "./PayPages/OrderResult";
 import PayResult from "./PayPages/PayResult";
+import PassResult from "./AuthPages/PassResult"
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/order_confirm" element={<OrderConfirm></OrderConfirm>}/>
         <Route path="/order_result" element={<OrderResult></OrderResult>}/>
         <Route path="/pay_result" element={<PayResult></PayResult>}/>
+        <Route path="/pass_result" element={<PassResult></PassResult>}/>
       </Routes> 
     </div>  
   );

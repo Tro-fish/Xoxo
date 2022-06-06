@@ -12,7 +12,7 @@ function Order() {
         work_type: 'CERT',                            // 결제요청방식
         card_ver: '',                                 // DEFAULT: 01 (01: 정기결제 플렛폼, 02: 일반결제 플렛폼), 카드결제 시 필수
         payple_payer_id: '',                          // 결제자 고유ID (본인인증 된 결제회원 고유 KEY)
-        buyer_no: '2335',                             // 가맹점 회원 고유번호
+        buyer_no: '1',                             // 가맹점 회원 고유번호
         buyer_name: '송현빈',                         // 결제자 이름
         buyer_hp: '01090582209',                      // 결제자 휴대폰 번호
         buyer_email: 'shbin05@naver.com',                // 결제자 Email
@@ -35,8 +35,8 @@ function Order() {
     )}, 500);
 
     return (
-        <div>
-            <h3>Loading</h3>
+        <div style={{alignItems: "center", justifyContent: "center"}}>
+            <h4>Loading</h4>
         </div>
     );
 }

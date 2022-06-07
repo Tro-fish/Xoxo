@@ -27,7 +27,7 @@ export const authenticate = (obj = {}) => {
     return axios.post(process.env.REACT_APP_AUTH_URL, form, {
         header: {
             'content-type': 'application/json',
-            'Referer': process.env.REACT_APP_PCD_HTTP_REFERRER,        // API 서버를 따로 두고 있는 경우, Referer 에 가맹점의 도메인 고정
+            'referer': process.env.REACT_APP_PCD_HTTP_REFERRER,        // API 서버를 따로 두고 있는 경우, Referer 에 가맹점의 도메인 고정
         }
     });
 }

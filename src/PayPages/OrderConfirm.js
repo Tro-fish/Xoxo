@@ -22,7 +22,6 @@ function OrderConfirm() {
     const getResult = (res) => {
         if (res.PCD_PAY_RST === 'success') {
             payResult = res;
-
             // 전달받은 결제 파라미터값을 state에 저장 후  '/order_result'로 이동
             navigate('/order_result', {
                 state: {payResult: payResult}
@@ -55,7 +54,7 @@ function OrderConfirm() {
     // direct(절대경로): https://payple.kr/sample/pay.html | popup(상대경로) https:// 로 시작하지 않고, 중간경로( /sample/pay.html)를 표기한 URL
     // ref: http://docs.payple.kr/faq/pay/callback
     if (content.is_direct === 'Y' ? obj.PCD_RST_URL = process.env.REACT_APP_REMOTE_HOSTNAME + '/order_result' : obj.PCD_RST_URL = '/order_result') ;
-    //obj.PCD_RST_URL = pcd_rst_url;							 // (필수) 결제(요청)결과 RETURN URL
+    //obj.PCD_RST_URL = process.env.REACT_APP_REMOTE_HOSTNAME + '/order_result';							 // (필수) 결제(요청)결과 RETURN URL
 
     obj.payple_auth_file = '';	                                 // 인증파일경로 /절대경로/payple_auth_file (node.js => [app.js] app.post('/pg/auth', ...) {..}
 
@@ -135,7 +134,6 @@ function OrderConfirm() {
     }
     return (
         <div>
-            
         </div>
     );
 };

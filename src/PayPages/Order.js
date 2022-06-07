@@ -8,9 +8,9 @@ function Order() {
     const [content] = useState({
         // Default form set
         is_direct: 'N',                               // 결제창 방식 (DIRECT: Y | POPUP: N)
-        pay_type: 'card',                         // 결제수단
+        pay_type: 'card',                           // 결제수단
         work_type: 'CERT',                            // 결제요청방식
-        card_ver: '',                                 // DEFAULT: 01 (01: 정기결제 플렛폼, 02: 일반결제 플렛폼), 카드결제 시 필수
+        card_ver: '01',                                 // DEFAULT: 01 (01: 정기결제 플렛폼, 02: 일반결제 플렛폼), 카드결제 시 필수
         payple_payer_id: '',                          // 결제자 고유ID (본인인증 된 결제회원 고유 KEY)
         buyer_no: '1',                             // 가맹점 회원 고유번호
         buyer_name: '송현빈',                         // 결제자 이름
